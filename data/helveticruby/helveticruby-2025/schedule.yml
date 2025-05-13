@@ -15,7 +15,6 @@ days:
         end_time: "16:00"
         slots: 2
 
-
   - name: "Conference Day"
     date: "2025-05-23"
     grid:
