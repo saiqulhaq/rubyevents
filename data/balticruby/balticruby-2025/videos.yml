@@ -170,7 +170,7 @@
 - title: "JRuby Everywhere: Desktop, Server, and Mobile"
   raw_title: "JRUBY EVERYWHERE: DESKTOP, SERVER, AND MOBILE"
   speakers:
-    - Charles Oliver Nutter
+    - Charles Nutter
   event_name: "Baltic Ruby 2025"
   description: |-
     With JRuby, you can build cross-platform desktop apps, scalable server apps, and Android mobile apps. Charles Oliver Nutter will show you how to make it happen — and have fun along the way!
