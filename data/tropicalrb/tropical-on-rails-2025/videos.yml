@@ -183,10 +183,10 @@
     - Vinicius Alonso
   event_name: "Tropical on Rails 2025"
   date: "2025-04-04"
-  published_at: "TODO"
+  published_at: "2025-05-13"
   announced_at: "2025-02-05 17:39:00 UTC"
-  video_provider: "not_published"
-  video_id: "vinicius-alonso-tropical-on-rails-2025"
+  video_provider: "youtube"
+  video_id: "QxoxgpQyZwQ"
   id: "vinicius-alonso-tropical-on-rails-2025"
   language: "portuguese"
   slides_url: "https://speakerdeck.com/viniciusalonso/dont-rewrite-your-framework"
@@ -202,9 +202,9 @@
   event_name: "Tropical on Rails 2025"
   date: "2025-04-04"
   time: "11:40h - 12:10h"
-  published_at: "TODO"
-  video_provider: "not_published"
-  video_id: "cristian-planas-tropical-on-rails-2025"
+  published_at: "2025-05-13"
+  video_provider: "youtube"
+  video_id: "0cI8OTDVfEs"
   id: "cristian-planas-tropical-on-rails-2025"
   language: "english"
   description: |-
@@ -219,10 +219,10 @@
     - Celso Fernandes
   event_name: "Tropical on Rails 2025"
   date: "2025-04-04"
-  published_at: "TODO"
+  published_at: "2025-05-13"
   announced_at: "2025-02-05 17:41:00 UTC"
-  video_provider: "not_published"
-  video_id: "celso-fernandes-tropical-on-rails-2025"
+  video_provider: "youtube"
+  video_id: "wt1j6I3Kt34"
   id: "celso-fernandes-tropical-on-rails-2025"
   slides_url: "https://drive.google.com/file/d/1-ly_ksIFu9wI3MfZpc8UYw7Qs2eS7048/view"
   language: "english"
@@ -231,16 +231,16 @@
 
     In the talk "Apache Pinot: An Active Record Adapter Tale", he will share the challenge of writing an Active Record Adapter running in production and encourage the community to explore the core of Rails.
 
-- title: "Kamal 2 - Get Out of Cloud"
+- title: "Kamal 2 - Get out of the cloud"
   raw_title: "Kamal 2 - Get Out of Cloud"
   speakers:
     - Igor Alexandrov
   event_name: "Tropical on Rails 2025"
   date: "2025-04-04"
-  published_at: "TODO"
+  published_at: "2025-05-13"
   announced_at: "2025-01-27 15:47:00 UTC"
-  video_provider: "not_published"
-  video_id: "igor-alexandrov-tropical-on-rails-2025"
+  video_provider: "youtube"
+  video_id: "raUfWvlZLRQ"
   id: "igor-alexandrov-tropical-on-rails-2025"
   language: "english"
   slides_url: "https://speakerdeck.com/aleksandrov/kamal-2-get-out-of-the-cloud"
@@ -253,10 +253,10 @@
     - Matheus Richard
   event_name: "Tropical on Rails 2025"
   date: "2025-04-04"
-  published_at: "TODO"
+  published_at: "2025-05-13"
   announced_at: "2025-01-29 17:23:00 UTC"
-  video_provider: "not_published"
-  video_id: "matheus-richard-tropical-on-rails-2025"
+  video_provider: "youtube"
+  video_id: "nFoOmIpMcm0"
   id: "matheus-richard-tropical-on-rails-2025"
   language: "english"
   slides_url: "https://docs.google.com/presentation/d/1IdNgAU7z9umDeyx6xG8fv7wqauG3_QkfhpCM1sVXelw/view"
@@ -271,10 +271,10 @@
     - Stephen Margheim
   event_name: "Tropical on Rails 2025"
   date: "2025-04-04"
-  published_at: "TODO"
+  published_at: "2025-05-13"
   announced_at: "2025-02-04 14:38:00 UTC"
-  video_provider: "not_published"
-  video_id: "stephen-margheim-tropical-on-rails-2025"
+  video_provider: "youtube"
+  video_id: "NGeyotdnJS4"
   id: "stephen-margheim-tropical-on-rails-2025"
   language: "english"
   description: |-
@@ -288,10 +288,10 @@
     - Radamés Roriz
   event_name: "Tropical on Rails 2025"
   date: "2025-04-04"
-  published_at: "TODO"
+  published_at: "2025-05-13"
   announced_at: "2025-01-27 15:41:00 UTC"
-  video_provider: "not_published"
-  video_id: "radames-roriz-tropical-on-rails-2025"
+  video_provider: "youtube"
+  video_id: "CSnAOo9Y1Gs"
   id: "radames-roriz-tropical-on-rails-2025"
   language: "portuguese"
   description: |-
