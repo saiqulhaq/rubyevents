@@ -176,7 +176,7 @@
 
 - title: "Beyond the Prompt: Building Real-World LLM Features in Rails"
   speakers:
-    - Kinsey Durham
+    - Kinsey Durham Grace
   description: |-
     Prompting an LLM is easy. Building a Rails app that reliably integrates one? That’s a different story. This talk goes beyond prompt hacking to explore what it takes to bring LLM-powered features into real-world Rails apps—with real users, latency constraints, and production consequences. We’ll cover architectural patterns like model orchestration, prompt versioning, and skill/tool design, all tailored to the Rails ecosystem. You’ll learn how to connect your LLM to internal APIs, business logic, and background jobs, while keeping everything observable, testable, and maintainable. Whether you're adding a smart assistant or orchestrating agents, you’ll leave with practical Rails-specific strategies and patterns to build it right.
   video_provider: "scheduled"
@@ -189,7 +189,7 @@
 
 - title: "Reading Rails 1.0 Source Code"
   speakers:
-    - Masafumi Okura
+    - OKURA Masafumi
   description: |-
     Rails is great. In fact, Rails has been great since the very beginning. However, in terms of technical details, Rails 1.0 was very different from Rails 8. Lots of things have changed, many frameworks have been introduced and overall quality has been polished.
     This leads to an interesting question. What makes Rails Rails itself? What core parts of Rails still remain after 20 years?
