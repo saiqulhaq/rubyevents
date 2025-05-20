@@ -321,7 +321,7 @@
       description: |-
         Rails helps us prototype quickly, but true velocity comes from delivering those changes to customers just as fast. At GitHub, we ship hundreds of commits to our Rails monolith every day through a deployment process built for speed, safety, and reliability. In this talk, you’ll learn the key practices and tools that help us ship fast and confidently at scale.
 
-    - title: "Building with Rails"
+    - title: "Building Buildings with Rails"
       event_name: "Vienna.rb June 2025"
       date: "2025-06-05"
       published_at: "TODO"
