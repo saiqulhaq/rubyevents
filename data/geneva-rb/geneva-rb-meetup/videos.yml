@@ -867,16 +867,69 @@
   video_provider: "scheduled"
   video_id: "geneva-rb-may-2025"
   description: |-
-    Presentation TBA
+    For this special edition of Geneva.rb, each participant will take turns presenting a tip or insight they care about, in a 5 to 10 minute slot. Whether it’s a library, a pattern, a best practice, or a useful resource, the goal is to share it with the group. You can present in either French or English, with or without slides. The atmosphere will be informal, so feel free to keep it casual!
+
+    What to Expect:
+    * 30-45 minutes of presentations
+    * Networking with Drinks and Snacks: After the presentation, join us for drinks and snacks. It's the perfect time to mingle, network, and dive deep into discussions about all things Ruby, Rails and more.
+    * Open to Everyone: Whether you're a seasoned Rubyist, a Rails enthusiast, or just beginning your journey as a developer, we warmly welcome you to join and contribute.
+
+    🙏 Meetup kindly sponsored by RoRvsWild and Ruby Central!
+
+    https://www.meetup.com/geneva-rb/events/304629281
+  thumbnail_xs: "https://secure.meetupstatic.com/photos/event/8/0/b/7/highres_527312951.webp?w=750"
+  thumbnail_sm: "https://secure.meetupstatic.com/photos/event/8/0/b/7/highres_527312951.webp?w=750"
+  thumbnail_md: "https://secure.meetupstatic.com/photos/event/8/0/b/7/highres_527312951.webp?w=750"
+  thumbnail_lg: "https://secure.meetupstatic.com/photos/event/8/0/b/7/highres_527312951.webp?w=750"
+  thumbnail_xl: "https://secure.meetupstatic.com/photos/event/8/0/b/7/highres_527312951.webp?w=750"
+  talks:
+    - title: "Tips and Tricks"
+      event_name: "Geneva.rb May 2025"
+      date: "2025-05-14"
+      published_at: "TODO"
+      speakers:
+        - TODO
+      video_id: "geneva-rb-may-2025-tips-and-tricks"
+      video_provider: "not_recorded"
+      description: |-
+        For this special edition of Geneva.rb, each participant will take turns presenting a tip or insight they care about, in a 5 to 10 minute slot. Whether it’s a library, a pattern, a best practice, or a useful resource, the goal is to share it with the group. You can present in either French or English, with or without slides. The atmosphere will be informal, so feel free to keep it casual!
+
+- title: "Geneva.rb June 2025"
+  event_name: "Geneva.rb June 2025"
+  date: "2025-06-11"
+  announced_at: "TODO"
+  published_at: "TODO"
+  video_provider: "scheduled"
+  video_id: "geneva-rb-june-2025"
+  description: |-
+    Ben Colon (mobilidée) will take you on a humorous journey through the chaos of race conditions in Ruby on Rails. When a well-meaning dad builds a Rails app to sell his kid's Pokémon cards, success comes fast—and so do race conditions. Follow his funny and chaotic path as he discovers the pitfalls of concurrency, and learns how to fix them using transactions, optimistic and pessimistic locks, and advisory locking before every rare card manages to sell out twice.
 
     What to Expect:
     * A presentation of about 30-45 minutes
     * Networking with Drinks and Snacks: After the presentation, join us for drinks and snacks. It's the perfect time to mingle, network, and dive deep into discussions about all things Ruby, Rails and more.
     * Open to Everyone: Whether you're a seasoned Rubyist, a Rails enthusiast, or just beginning your journey as a developer, we warmly welcome you to join and contribute.
 
-    🙏 Meetup kindly sponsored by RoRvsWild!
+    🙏 Meetup kindly sponsored by RoRvsWild and Ruby Central!
 
-    https://www.meetup.com/geneva-rb/events/304629285
-  speakers:
-    - TBA
-  # talks: []
+    https://www.meetup.com/geneva-rb/events/304629286
+  thumbnail_xs: "https://secure.meetupstatic.com/photos/event/2/b/7/2/highres_527891122.webp?w=750"
+  thumbnail_sm: "https://secure.meetupstatic.com/photos/event/2/b/7/2/highres_527891122.webp?w=750"
+  thumbnail_md: "https://secure.meetupstatic.com/photos/event/2/b/7/2/highres_527891122.webp?w=750"
+  thumbnail_lg: "https://secure.meetupstatic.com/photos/event/2/b/7/2/highres_527891122.webp?w=750"
+  thumbnail_xl: "https://secure.meetupstatic.com/photos/event/2/b/7/2/highres_527891122.webp?w=750"
+  talks:
+    - title: "Race Conditions in Rails: Gotta Catch 'Em All (Before Your Buyers Do)"
+      event_name: "Geneva.rb June 2025"
+      date: "2025-06-11"
+      published_at: "TODO"
+      speakers:
+        - Ben Colon
+      video_id: "ben-colon-geneva-rb-june-2025"
+      video_provider: "not_recorded"
+      description: |-
+        Ben Colon (mobilidée) will take you on a humorous journey through the chaos of race conditions in Ruby on Rails. When a well-meaning dad builds a Rails app to sell his kid's Pokémon cards, success comes fast—and so do race conditions. Follow his funny and chaotic path as he discovers the pitfalls of concurrency, and learns how to fix them using transactions, optimistic and pessimistic locks, and advisory locking before every rare card manages to sell out twice.
+      thumbnail_xs: "https://secure.meetupstatic.com/photos/event/2/b/7/2/highres_527891122.webp?w=750"
+      thumbnail_sm: "https://secure.meetupstatic.com/photos/event/2/b/7/2/highres_527891122.webp?w=750"
+      thumbnail_md: "https://secure.meetupstatic.com/photos/event/2/b/7/2/highres_527891122.webp?w=750"
+      thumbnail_lg: "https://secure.meetupstatic.com/photos/event/2/b/7/2/highres_527891122.webp?w=750"
+      thumbnail_xl: "https://secure.meetupstatic.com/photos/event/2/b/7/2/highres_527891122.webp?w=750"
