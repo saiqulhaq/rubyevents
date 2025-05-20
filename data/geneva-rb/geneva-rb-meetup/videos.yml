@@ -736,29 +736,48 @@
   video_provider: "children"
   video_id: "geneva-rb-april-2025"
   description: |-
-    Presentation TBA
+    At QoQa, we deploy several times a day, and every backend developer can deploy to production.
+
+    We are also a bit lazy, so we try to optimize the process to be as simple as possible.
+
+    The result: the developer in charge of the releases only discusses with a bot to make all deployment and, all steps of the process are easily accessible through Slack to let everyone understand what happened and see what arrived in production.
+
+    Let's see together how it works.
+
+    PS: if you love trains, you will be pleased with this presentation.
 
     What to Expect:
     * A presentation of about 30-45 minutes
     * Networking with Drinks and Snacks: After the presentation, join us for drinks and snacks. It's the perfect time to mingle, network, and dive deep into discussions about all things Ruby, Rails and more.
     * Open to Everyone: Whether you're a seasoned Rubyist, a Rails enthusiast, or just beginning your journey as a developer, we warmly welcome you to join and contribute.
 
-    🙏 Meetup kindly sponsored by RoRvsWild!
+    🙏 Event supported by RoRvsWild and Ruby Central
 
     https://www.meetup.com/geneva-rb/events/304629280
+  thumbnail_xs: "https://secure.meetupstatic.com/photos/event/2/d/7/9/highres_526631641.webp?w=750"
+  thumbnail_sm: "https://secure.meetupstatic.com/photos/event/2/d/7/9/highres_526631641.webp?w=750"
+  thumbnail_md: "https://secure.meetupstatic.com/photos/event/2/d/7/9/highres_526631641.webp?w=750"
+  thumbnail_lg: "https://secure.meetupstatic.com/photos/event/2/d/7/9/highres_526631641.webp?w=750"
+  thumbnail_xl: "https://secure.meetupstatic.com/photos/event/2/d/7/9/highres_526631641.webp?w=750"
   talks:
-    - title: "Talk by Diane Delallée"
+    - title: "How to release in production 5 times a day while enjoying the apero"
       event_name: "Geneva.rb April 2025"
       date: "2025-04-09"
       published_at: "TODO"
       speakers:
         - Diane Delallée
       video_id: "diane-delallee-geneva-rb-april-2025"
-      video_provider: "scheduled"
+      video_provider: "not_recorded"
       description: |-
-        Diane Delallée (QoQa)
+        At QoQa, we deploy several times a day, and every backend developer can deploy to production.
 
-        Presentation TBA
+        We are also a bit lazy, so we try to optimize the process to be as simple as possible.
+
+        The result: the developer in charge of the releases only discusses with a bot to make all deployment and, all steps of the process are easily accessible through Slack to let everyone understand what happened and see what arrived in production.
+
+        Let's see together how it works.
+
+        PS: if you love trains, you will be pleased with this presentation.
 
 - title: "Geneva.rb May 2025"
   event_name: "Geneva.rb May 2025"
