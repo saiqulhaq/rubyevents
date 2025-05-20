@@ -135,7 +135,7 @@
     A Ruby application is built on a foundation of its gems. But how does a gem get from the package repository to running in your project? RubyGems and Bundler does an excellent job in removing the complexities of gem resolution and installation so developers can focus on building great software. Let’s do a deep dive on how these tools seamlessly manage the dependencies you need to get your project off the ground!
 
     In this talk, we’ll be taking a look at the inner workings of the Ruby package ecosystem. This includes:
-    - The processes involved in installing gems from a Gemfile 
+    - The processes involved in installing gems from a Gemfile
     - Insights into debugging gems within a Rails application
     - Ensuring you're selecting the right gems to avoid security risks
   video_provider: "youtube"
@@ -384,7 +384,7 @@
       video_id: "sergey-sergyenko-lighting-talk-rubyconf-2023"
       video_provider: "parent"
       speakers:
-        - Sergey Sergyenko
+        - Sergy Sergyenko
 
     - title: "Lightning Talk: Making online identity verification less awful"
       start_cue: "58:25"
