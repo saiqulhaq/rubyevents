@@ -43,11 +43,11 @@ module Static
       period = 4.days
 
       if end_date.present?
-        return ((end_date - period)..end_date).include?(Date.today)
+        return ((end_date - period)..end_date).cover?(Date.today)
       end
 
       if start_date.present?
-        return ((start_date - period)..start_date).include?(Date.today)
+        return ((start_date - period)..start_date).cover?(Date.today)
       end
 
       if event_record.present?
