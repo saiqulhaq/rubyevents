@@ -453,7 +453,7 @@ class Talk < ApplicationRecord
   end
 
   def event_name
-    return event.name unless event.organisation.meetup?
+    return event.name unless event.meetup?
 
     static_metadata.try("event_name") || event.name
   end
