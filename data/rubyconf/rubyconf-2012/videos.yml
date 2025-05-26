@@ -137,7 +137,7 @@
 - title: "Intimate Chat with Matz"
   raw_title: "Ruby Conf 12 - Intimate Chat with Matz featuring Yukihrio 'Matz' Matsumoto with Evan Phoenix"
   speakers:
-    - Yukihrio "Matz" Matsumoto
+    - Yukihiro "Matz" Matsumoto
     - Evan Phoenix
   event_name: "RubyConf 2012"
   date: "2012-11-01" # TODO
