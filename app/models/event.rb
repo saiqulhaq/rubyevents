@@ -293,9 +293,9 @@ class Event < ApplicationRecord
   end
 
   def year
-    static_metadata.year.present? ? static_metadata.year : talks.first.date.year
+    static_metadata.year.present? ? static_metadata.year : talks.first.try(:date).try(:year)
   rescue => _e
-    talks.first.date.year
+    talks.first.try(:date).try(:year)
   end
 
   def website
