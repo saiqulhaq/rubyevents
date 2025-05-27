@@ -61,9 +61,10 @@ class Organisation < ApplicationRecord
     end
 
     event_type = pluralize(events.size, meetup? ? "event-series" : "event")
+    frequency_text = (kind == "organisation") ? "" : " is a #{frequency} #{kind} and "
 
     <<~DESCRIPTION
-      #{name} is a #{frequency} #{kind} and hosted #{event_type}#{time_range}. We have currently indexed #{pluralize(events.sum { |event| event.talks_count }, "#{name} talk")}.
+      #{name} #{frequency_text}hosted #{event_type}#{time_range}. We have currently indexed #{pluralize(events.sum { |event| event.talks_count }, "#{name} talk")}.
     DESCRIPTION
   end
 

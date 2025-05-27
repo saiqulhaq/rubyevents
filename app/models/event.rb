@@ -157,13 +157,29 @@ class Event < ApplicationRecord
     end
   end
 
+  def kind
+    if meetup?
+      "meetup"
+    elsif conference?
+      "conference"
+    else
+      "event"
+    end
+  end
+
+  def frequency
+    static_metadata.frequency || organisation.frequency
+  end
+
   def description
     return @description if @description.present?
 
+    event_name = organisation.organisation? ? name : organisation.name
     keynotes = keynote_speakers.any? ? %(, including keynotes by #{keynote_speakers.map(&:name).to_sentence}) : ""
+    talks_text = talks.any? ? " and features #{talks.size} #{"talk".pluralize(talks.size)} from various speakers" : ""
 
     @description = <<~DESCRIPTION
-      #{organisation.name} is a #{organisation.frequency} #{organisation.kind}#{held_in_sentence} and features #{talks.size} #{"talk".pluralize(talks.size)} from various speakers#{keynotes}.
+      #{event_name} is a #{frequency} #{kind}#{held_in_sentence}#{talks_text}#{keynotes}.
     DESCRIPTION
   end
 
