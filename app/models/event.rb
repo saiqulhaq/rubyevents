@@ -164,7 +164,7 @@ class Event < ApplicationRecord
   end
 
   def frequency
-    static_metadata.frequency || organisation.frequency
+    static_metadata&.frequency || organisation.frequency
   end
 
   def description
