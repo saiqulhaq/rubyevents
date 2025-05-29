@@ -19,7 +19,7 @@ class ContributionsController < ApplicationController
 
     # Talks without speakers
 
-    @talks_without_speakers = Speaker.find_by(name: "TODO").talks
+    @talks_without_speakers = Speaker.find_by(name: "TODO").talks + Speaker.find_by(name: "TBD").talks
     @talks_without_speakers_count = @talks_without_speakers.count
 
     # Missing events
