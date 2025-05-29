@@ -594,7 +594,7 @@
 - title: "Real Time Salami"
   raw_title: "Ruby Conf 12 - Real Time Salami by Aaron Patteson"
   speakers:
-    - Aaron Patteson
+    - Aaron Patterson
   event_name: "RubyConf 2012"
   date: "2012-11-01" # TODO
   published_at: "2013-03-19"
