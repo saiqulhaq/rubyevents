@@ -11,9 +11,9 @@
   videos_count: 0
   metadata_parser: Youtube::VideoMetadata
   slug: goruco-2007
-  banner_background: "#FFFFFF"
-  featured_background: "#FFFFFF"
-  featured_color: "#1D1D1D"
+  banner_background: "#101E27"
+  featured_background: "#101E27"
+  featured_color: "#FFFFFF"
   website: "https://2007.goruco.com"
 
 - id: PL12686083008C28A5
