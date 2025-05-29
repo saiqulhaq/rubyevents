@@ -612,7 +612,8 @@
     * Lessons that could be useful for anyone thinking about rebuilding a product that's hampering speed and hindering your ability to innovate or deliver value to your customers.
 
     The rebuild is still in progress. I don't have all the answers (or any!). But we've already learned much - what to do, what not to do, and where the spiders are hiding.
-  video_id: "2d6M6QQuI7A"
+  id: "2d6M6QQuI7A"
+  video_id: "cyLNRYJ7SGY"
   video_provider: "youtube"
 
 - title: "Assembling the Future: crafting the missing pieces of the Ruby on Wasm puzzle"
