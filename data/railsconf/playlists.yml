@@ -14,6 +14,7 @@
   banner_background: "#91181C"
   featured_background: "#91181C"
   featured_color: "#DC9771"
+  website: https://web.archive.org/web/20100809223242/http://en.oreilly.com/rails2010
 
 - id: PL379EA9290474C86C
   title: RailsConf 2011
