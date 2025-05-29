@@ -14,7 +14,7 @@ class OrganisationsController < ApplicationController
 
     @events = @organisation.events.sort_by { |event|
       begin
-        event.start_date
+        event.start_date || 0
       rescue
         0
       end
