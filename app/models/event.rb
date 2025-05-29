@@ -137,10 +137,6 @@ class Event < ApplicationRecord
     "Unknown"
   end
 
-  def title
-    %(All #{name} #{organisation.kind} talks)
-  end
-
   def country_name
     return nil if country_code.blank?
 
@@ -188,19 +184,19 @@ class Event < ApplicationRecord
       title: name,
       description: description,
       og: {
-        title: %(All #{name} #{organisation.kind} talks),
+        title: name,
         type: :website,
         image: {
           _: Router.image_path(card_image_path),
-          alt: title
+          alt: name
         },
         description: description,
         site_name: "RubyEvents.org"
       },
       twitter: {
         card: "summary_large_image",
-        site: "adrienpoly",
-        title: title,
+        site: "@rubyevents_org",
+        title: name,
         description: description,
         image: {
           src: Router.image_path(card_image_path)

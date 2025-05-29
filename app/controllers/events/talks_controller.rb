@@ -5,7 +5,6 @@ class Events::TalksController < ApplicationController
   before_action :set_user_favorites, only: %i[index]
 
   def index
-    set_meta_tags(@event)
     @talks = @event.talks_in_running_order.where(meta_talk: false).includes(:speakers, :parent_talk, child_talks: :speakers).order(date: :desc)
   end
 
@@ -13,6 +12,7 @@ class Events::TalksController < ApplicationController
 
   def set_event
     @event = Event.includes(:organisation, talks: :speakers).find_by(slug: params[:event_slug])
+    set_meta_tags(@event)
   end
 
   def set_user_favorites

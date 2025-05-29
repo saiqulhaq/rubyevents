@@ -254,7 +254,7 @@ class Talk < ApplicationRecord
       },
       twitter: {
         card: "summary_large_image",
-        site: "adrienpoly",
+        site: "@rubyevents_org",
         title: title,
         description: description,
         image: {
