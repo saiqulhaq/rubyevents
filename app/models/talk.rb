@@ -226,6 +226,9 @@ class Talk < ApplicationRecord
   scope :for_speaker, ->(speaker_slug) { joins(:speakers).where(speakers: {slug: speaker_slug}) }
   scope :for_event, ->(event_slug) { joins(:event).where(events: {slug: event_slug}) }
   scope :watchable, -> { where(video_provider: WATCHABLE_PROVIDERS) }
+  scope :upcoming, -> { where(date: Date.today...) }
+  scope :today, -> { where(date: Date.today) }
+  scope :past, -> { where(date: ...Date.today) }
 
   def managed_by?(visiting_user)
     return false unless visiting_user.present?
