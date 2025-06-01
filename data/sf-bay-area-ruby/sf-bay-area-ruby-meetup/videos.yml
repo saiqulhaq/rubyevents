@@ -164,9 +164,10 @@
   video_provider: "youtube"
   video_id: "A31jZ_7KC5Y"
   talks:
-    - title: "Intro"
+    - title: "Intro SF Bay Area Ruby Meetup - July 2024"
       start_cue: "00:00"
       end_cue: "07:20"
+      event_name: "SF Bay Area Ruby Meetup - July 2024"
       date: "2024-07-18"
       video_id: "irina-nazarova-sf-bay-area-meetup-july-2024-intro"
       video_provider: "parent"
@@ -176,6 +177,7 @@
     - title: "Welcome to Cisco Merarki"
       start_cue: "07:20"
       end_cue: "16:05"
+      event_name: "SF Bay Area Ruby Meetup - July 2024"
       date: "2024-07-18"
       video_id: "welcome-to-cisco-meraki-sf-bay-area-meetup-july-2024"
       video_provider: "parent"
@@ -194,7 +196,7 @@
 
     - title: "How to Optimize Postgres Queries for Ruby/Rails Developers"
       start_cue: "36:55"
-      end_cue:
+      end_cue: ""
       event_name: "SF Bay Area Ruby Meetup - July 2024"
       date: "2024-07-18"
       video_id: "lukas-fittl-optimize-postgres-queries"
@@ -396,7 +398,7 @@
   video_provider: "youtube"
   video_id: "aqvGdPF5Qro"
   talks:
-    - title: "Intro"
+    - title: "Intro SF Bay Area Ruby Meetup - September 2024"
       start_cue: "01:25"
       end_cue: "11:37"
       thumbnail_cue: "02:00"
@@ -412,6 +414,7 @@
       end_cue: "34:09"
       thumbnail_cue: "13:13"
       date: "2024-09-03"
+      event_name: "SF Bay Area Ruby Meetup - September 2024"
       video_id: "cameron-dutro-sf-bay-area-meetup-september-2024"
       video_provider: "parent"
       speakers:
@@ -515,7 +518,7 @@
   video_provider: "youtube"
   video_id: "JFD8MJiUk6g"
   talks:
-    - title: "Intro"
+    - title: "Intro SF Bay Area Ruby Meetup - October 2024"
       date: "2024-10-10"
       start_cue: "00:00"
       end_cue: "05:40"
@@ -688,7 +691,7 @@
   video_provider: "youtube"
   video_id: "emg8KhSKXzI"
   talks:
-    - title: "Intro words"
+    - title: "Intro SF Bay Area Ruby Meetup - November 2024"
       date: "2024-11-19"
       start_cue: "00:00"
       end_cue: "05:20"
@@ -877,7 +880,7 @@
   video_provider: "youtube"
   video_id: "NU7ld8ERUFY"
   talks:
-    - title: "Welcome Words"
+    - title: "Intro SF Bay Area Ruby Meetup - December 2024"
       date: "2024-12-03"
       start_cue: "00:00"
       end_cue: "07:30"
@@ -1028,7 +1031,7 @@
   video_id: "cnhBfOCI0JA"
   id: "sf-bay-area-ruby-meetup-january-2025"
   talks:
-    - title: "Intro"
+    - title: "Intro SF Bay Area Ruby Meetup - January 2025"
       start_cue: "00:04"
       end_cue: "05:55"
       event_name: "SF Bay Area Ruby Meetup - January 2025"
@@ -1477,7 +1480,7 @@
   video_id: "eqLbYCCCRO0"
   id: "sf-bay-area-ruby-meetup-april-2025"
   talks:
-    - title: "Intro"
+    - title: "Intro SF Bay Area Ruby Meetup - April 2025"
       start_cue: "00:00:00"
       end_cue: "00:02:57"
       date: "2025-04-23"
