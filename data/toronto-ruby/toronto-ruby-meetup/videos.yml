@@ -316,8 +316,7 @@
   published_at: "TODO"
   video_provider: "children"
   video_id: "toronto-ruby-november-2024"
-  speakers:
-    - TODO # TODO: no speakers for this event
+  talks: []
   description: |-
     Toronto Ruby's One Year Anniversary
     Nov 25, 2024 @ 06:00PM

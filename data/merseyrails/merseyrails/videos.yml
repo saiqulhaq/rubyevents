@@ -9,5 +9,4 @@
     Join us for the inaugural meetup on 3rd June 2025
   video_provider: "scheduled"
   video_id: "merseyrails-meetup-june-2025"
-  speakers:
-    - TODO # TODO: this event doesn't have any speakers
+  talks: []

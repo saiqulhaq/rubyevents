@@ -143,8 +143,7 @@
     ⚠️ Note: depending on the weather and availability, we may need to move the event indoors or to another nearby location. Keep an eye on this page to make sure you navigate to the right place.
 
     https://rubybrigade.fi/event/2024/summer-kick-off/
-  speakers:
-    - TODO # TODO: this event doesn't have speakers
+  talks: []
 
 - title: "Helsinki Ruby Brigade March 2025"
   raw_title: "Helsinki Ruby Brigade March 2025"
