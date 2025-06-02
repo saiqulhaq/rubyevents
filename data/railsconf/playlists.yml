@@ -1,4 +1,56 @@
 ---
+- id: railsconf-2006
+  title: RailsConf 2006
+  location: "Chicago, IL"
+  description: ""
+  start_date: "2006-06-22"
+  end_date: "2006-06-25"
+  channel_id: ""
+  year: "2006"
+  videos_count: 0
+  metadata_parser: Youtube::VideoMetadata
+  slug: railsconf-2006
+  website: https://railsconf.org
+
+- id: railsconf-2007
+  title: RailsConf 2007
+  location: "Portland, Oregon"
+  description: ""
+  start_date: "2007-05-17"
+  end_date: "2007-05-20"
+  channel_id: ""
+  year: "2007"
+  videos_count: 0
+  metadata_parser: Youtube::VideoMetadata
+  slug: railsconf-2007
+  website: https://railsconf.org
+
+- id: railsconf-2008
+  title: RailsConf 2008
+  location: "Portland, Oregon"
+  description: ""
+  start_date: "2008-05-29"
+  end_date: "2008-06-01"
+  channel_id: ""
+  year: "2008"
+  videos_count: 0
+  metadata_parser: Youtube::VideoMetadata
+  slug: railsconf-2008
+  website: https://railsconf.org
+
+- id: railsconf-2009
+  title: RailsConf 2009
+  location: "Las Vegas, Nevada"
+  description: ""
+  start_date: "2009-05-04"
+  end_date: "2009-05-07"
+  channel_id: ""
+  year: "2009"
+  videos_count: 0
+  metadata_parser: Youtube::VideoMetadata
+  slug: railsconf-2009
+  website: https://railsconf.org
+
 - id: PL393ECE649BB3813D
   title: RailsConf 2010
   location: "Baltimore, MD"
