@@ -222,6 +222,7 @@ class Talk < ApplicationRecord
   scope :without_summary, -> { where("summary IS NULL OR summary = ''") }
   scope :without_topics, -> { where.missing(:talk_topics) }
   scope :with_topics, -> { joins(:talk_topics) }
+  scope :with_speakers, -> { joins(:speaker_talks).distinct }
   scope :for_topic, ->(topic_slug) { joins(:topics).where(topics: {slug: topic_slug}) }
   scope :for_speaker, ->(speaker_slug) { joins(:speakers).where(speakers: {slug: speaker_slug}) }
   scope :for_event, ->(event_slug) { joins(:event).where(events: {slug: event_slug}) }
