@@ -98,3 +98,6 @@
   slug: rubyconf-taiwan-2025
   website: https://2025.rubyconf.tw
   twitter: rubyconftw
+  banner_background: "#EF4444"
+  featured_background: "#1E2938"
+  featured_color: "#FFFFFF"
