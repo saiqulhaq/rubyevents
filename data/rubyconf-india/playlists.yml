@@ -145,4 +145,6 @@
   metadata_parser: Youtube::VideoMetadata
   slug: rubyconf-india-2025
   website: https://rubyconf.in
-  twitter: rubyconfindia
+  banner_background: "#15162B"
+  featured_background: "#15162B"
+  featured_color: "#FFFFFF"
