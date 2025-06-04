@@ -46,4 +46,6 @@
   metadata_parser: Youtube::VideoMetadata
   slug: rails-camp-west-2025
   website: https://west.railscamp.us/2025
-  twitter: railscamp_usa
+  featured_background: "#F7F7F4"
+  featured_color: "#013198"
+  banner_background: "#F7F7F4"
