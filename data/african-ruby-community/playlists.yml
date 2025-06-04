@@ -36,3 +36,6 @@
   slug: rubyconf-africa-2025
   website: https://rubyconf.africa/
   twitter: ruby_african
+  banner_background: "#E2CEB5"
+  featured_background: "#E2CEB5"
+  featured_color: "#571217"
