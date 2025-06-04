@@ -124,7 +124,7 @@ class Event < ApplicationRecord
     return start_date.strftime("%B %d, %Y") if start_date == end_date
 
     if start_date.strftime("%Y-%m") == end_date.strftime("%Y-%m")
-      return "#{start_date.strftime("%B %d")}-#{end_date.strftime("%d")}, #{year}"
+      return "#{start_date.strftime("%B %d")}-#{end_date.strftime("%d, %Y")}"
     end
 
     if start_date.strftime("%Y") == end_date.strftime("%Y")
