@@ -1821,3 +1821,15 @@
   slug: rubybelgium
   language: english
   youtube_channel_id: ""
+
+- name: Rails Remote Conf
+  website: "https://web.archive.org/web/20170627065859/https://allremoteconfs.com/"
+  twitter: ""
+  kind: organisation
+  frequency: monthly
+  playlist_matcher: ""
+  default_country_code: "US"
+  youtube_channel_name: ""
+  slug: rails-remote-conf
+  language: english
+  youtube_channel_id: ""
