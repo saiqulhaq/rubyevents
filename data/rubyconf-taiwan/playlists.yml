@@ -59,6 +59,17 @@
   website: https://2019.rubyconf.tw
   playlist: https://www.youtube.com/playlist?list=PLhKZ4RWngmpBgD6t068O_EZ4grSlUtl3Y
 
+- id: rubyconf-taiwan-2021
+  title: RubyConf Taiwan 2021
+  description: 'Entirely virtual on Gathertown & Youtube'
+  location: online
+  kind: conference
+  start_date: '2021-07-31'
+  end_date: '2021-08-01'
+  metadata_parser: Youtube::VideoMetadata
+  slug: rubyconf-taiwan-2021
+  website: https://2021.rubyconf.tw
+
 - id: PLhKZ4RWngmpARULXh_Sv5X5AYQ8hLlGih
   title: RubyConf Taiwan 2023
   location: "Taipai, Taiwan"
