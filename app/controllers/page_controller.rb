@@ -35,7 +35,7 @@ class PageController < ApplicationController
     @featured_events = Event.distinct
       .includes(:organisation)
       .where(slug: playlist_slugs)
-      .with_watchable_talks
+      # .with_watchable_talks
       .in_order_of(:slug, playlist_slugs)
 
     respond_to do |format|
