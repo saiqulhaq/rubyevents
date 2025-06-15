@@ -112,4 +112,7 @@
   end_date: '2025-11-07'
   metadata_parser: Youtube::VideoMetadata
   slug: rubyworld-2025
-  website: https://2024.rubyworld-conf.org/ja/news/2025/01/rwc2025/
+  website: https://2025.rubyworld-conf.org/en/
+  featured_background: "#1E2230"
+  featured_color: "#FFFFFF"
+  banner_background: "#1E2230"
