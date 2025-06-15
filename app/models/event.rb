@@ -227,11 +227,21 @@ class Event < ApplicationRecord
     ["events", "default"].join("/")
   end
 
+  def default_organisation_image_path
+    ["events", organisation.slug, "default"].join("/")
+  end
+
   def event_image_or_default_for(filename)
     event_path = [event_image_path, filename].join("/")
+    default_organisation_path = [default_organisation_image_path, filename].join("/")
     default_path = [default_event_image_path, filename].join("/")
 
-    Rails.root.join("app", "assets", "images", event_image_path, filename).exist? ? event_path : default_path
+    base = Rails.root.join("app", "assets", "images")
+
+    return event_path if (base / event_path).exist?
+    return default_organisation_path if (base / default_organisation_path).exist?
+
+    default_path
   end
 
   def event_image_for(filename)
