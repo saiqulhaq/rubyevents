@@ -9,3 +9,6 @@
   metadata_parser: Youtube::VideoMetadata
   slug: rubyconf-austria-2026
   website: https://rubyconf.at
+  banner_background: "#000000"
+  featured_background: "#000000"
+  featured_color: "#FFFFFF"
