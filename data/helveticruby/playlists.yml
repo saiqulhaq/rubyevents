@@ -64,3 +64,6 @@
   website: https://helvetic-ruby.ch
   twitter: helvetic_ruby
   mastodon: https://ruby.social/@helvetic_ruby
+  banner_background: "#F2EDE1"
+  featured_background: "#F2EDE1"
+  featured_color: "#810202"
