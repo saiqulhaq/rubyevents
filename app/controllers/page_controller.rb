@@ -71,7 +71,7 @@ class PageController < ApplicationController
             {
               name: "Recent Events",
               items: Event.past.limit(10).map { |event| event.to_mobile_json(request) },
-              url: events_url
+              url: past_events_url
             }
           ]
         }
