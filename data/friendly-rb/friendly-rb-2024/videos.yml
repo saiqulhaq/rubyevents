@@ -11,6 +11,7 @@
     - Rosa Gutierrez
   video_id: "rosa-gutierrez-friendly-rb-2024"
   video_provider: "not_published"
+  id: "rosa-gutierrez-friendly-rb-2024"
   description: ""
   date: "2024-09-18"
   published_at: "TODO"
@@ -22,6 +23,7 @@
     - Greg Molnar
   video_id: "greg-molnar-friendly-rb-2024"
   video_provider: "not_published"
+  video_id: "greg-molnar-friendly-rb-2024"
   description: ""
   date: "2024-09-18"
   published_at: "TODO"
@@ -33,6 +35,7 @@
     - Nabeelah Yousuph
   video_id: "nabeelah-yousuph-friendly-rb-2024"
   video_provider: "not_published"
+  id: "nabeelah-yousuph-friendly-rb-2024"
   description: ""
   date: "2024-09-18"
   published_at: "TODO"
@@ -44,6 +47,7 @@
     - Tom Rossi
   video_id: "tom-rossi-friendly-rb-2024"
   video_provider: "not_published"
+  id: "tom-rossi-friendly-rb-2024"
   description: ""
   date: "2024-09-18"
   published_at: "TODO"
@@ -57,6 +61,7 @@
     - Julian Cheal
   video_id: "julian-cheal-friendly-rb-2024"
   video_provider: "not_published"
+  id: "julian-cheal-friendly-rb-2024"
   description: ""
   date: "2024-09-18"
   published_at: "TODO"
@@ -68,6 +73,7 @@
     - Celso Fernandes
   video_id: "celso-fernandes-friendly-rb-2024"
   video_provider: "not_published"
+  id: "celso-fernandes-friendly-rb-2024"
   description: ""
   date: "2024-09-18"
   published_at: "TODO"
@@ -82,6 +88,7 @@
     - Cristian Planas
   video_id: "discussion-panel-ruby-at-scale-friendly-rb-2024"
   video_provider: "not_published"
+  id: "discussion-panel-ruby-at-scale-friendly-rb-2024"
   description: ""
   date: "2024-09-18"
   published_at: "TODO"
@@ -99,6 +106,7 @@
     - Stephen Margheim
   video_id: "stephen-margheim-friendly-rb-2024"
   video_provider: "not_published"
+  id: "stephen-margheim-friendly-rb-2024"
   description: ""
   date: "2024-09-19"
 
@@ -109,6 +117,7 @@
     - Hana Harenčárová
   video_id: "hana-harencarova-friendly-rb-2024"
   video_provider: "not_published"
+  id: "hana-harencarova-friendly-rb-2024"
   description: ""
   date: "2024-09-19"
 
@@ -119,6 +128,7 @@
     - Kyle d'Oliveira
   video_id: "kyle-d-oliveira-friendly-rb-2024"
   video_provider: "not_published"
+  id: "kyle-d-oliveira-friendly-rb-2024"
   description: ""
   date: "2024-09-19"
 
@@ -129,6 +139,7 @@
     - Yaroslav Shmarov
   video_id: "yaroslav-shmarov-friendly-rb-2024"
   video_provider: "not_published"
+  id: "yaroslav-shmarov-friendly-rb-2024"
   description: ""
   date: "2024-09-19"
 
@@ -143,6 +154,7 @@
     - James Carr
   video_id: "james-carr-friendly-rb-2024"
   video_provider: "not_published"
+  id: "james-carr-friendly-rb-2024"
   description: ""
   date: "2024-09-19"
 
@@ -153,6 +165,7 @@
     - Victor Motogna
   video_id: "victor-motogna-friendly-rb-2024"
   video_provider: "not_published"
+  id: "victor-motogna-friendly-rb-2024"
   description: ""
   date: "2024-09-19"
 
@@ -163,6 +176,7 @@
     - Benjamin Wood
   video_id: "benjamin-wood-friendly-rb-2024"
   video_provider: "not_published"
+  id: "benjamin-wood-friendly-rb-2024"
   description: ""
   date: "2024-09-19"
 
@@ -173,6 +187,7 @@
     - Olly Headey
   video_id: "olly-headey-friendly-rb-2024"
   video_provider: "not_published"
+  id: "olly-headey-friendly-rb-2024"
   description: ""
   date: "2024-09-19"
 # Closing
