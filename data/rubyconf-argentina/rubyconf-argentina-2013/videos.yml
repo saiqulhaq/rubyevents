@@ -166,7 +166,8 @@
 - title: "Separando un Monoriel Micro servicios y más allá"
   raw_title: "Vitor Pellegrino y Sergio Gil - Separando un Monoriel  Micro servicios y más allá"
   speakers:
-    - Vitor Pellegrino y Sergio Gil
+    - Vitor Pellegrino
+    - Sergio Gil
   date: "2013-11-28"
   event_name: "RubyConf Argentina 2013"
   language: "spanish"

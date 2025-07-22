@@ -68,7 +68,8 @@
 - title: "Cómo ser un data scientist con Ruby"
   raw_title: "Federico Brubacher y Bruno Aguirre - Cómo ser un data scientist con Ruby"
   speakers:
-    - Federico Brubacher y Bruno Aguirre
+    - Federico Brubacher
+    - Bruno Aguirre
   date: "2011-11-08"
   event_name: "RubyConf Argentina 2011"
   language: "spanish"

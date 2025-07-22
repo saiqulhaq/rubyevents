@@ -8,8 +8,7 @@
   language: "spanish"
   published_at: "2018-02-08"
   announced_at: "TODO"
-  description: |-
-    RubyConf Argentina 2014
+  description: ""
   video_provider: "youtube"
   video_id: "YRXu4Golk9I"
 
@@ -21,8 +20,7 @@
   event_name: "RubyConf Argentina 2014"
   published_at: "2018-02-08"
   announced_at: "TODO"
-  description: |-
-    RubyConf Argentina 2014
+  description: ""
   video_provider: "youtube"
   video_id: "LACyH2itUGA"
 
@@ -34,8 +32,7 @@
   event_name: "RubyConf Argentina 2014"
   published_at: "2018-02-08"
   announced_at: "TODO"
-  description: |-
-    RubyConf Argentina 2014
+  description: ""
   video_provider: "youtube"
   video_id: "B_yOITpjYSQ"
 
@@ -47,8 +44,7 @@
   event_name: "RubyConf Argentina 2014"
   published_at: "2018-02-08"
   announced_at: "TODO"
-  description: |-
-    RubyConf Argentina 2014
+  description: ""
   video_provider: "youtube"
   video_id: "CJNKroPvSJA"
 
@@ -60,8 +56,7 @@
   event_name: "RubyConf Argentina 2014"
   published_at: "2018-02-08"
   announced_at: "TODO"
-  description: |-
-    RubyConf Argentina 2014
+  description: ""
   video_provider: "youtube"
   video_id: "aoN1NBxlf-0"
 
@@ -73,8 +68,7 @@
   event_name: "RubyConf Argentina 2014"
   published_at: "2018-02-08"
   announced_at: "TODO"
-  description: |-
-    RubyConf Argentina 2014
+  description: ""
   video_provider: "youtube"
   video_id: "xfDVvUMrWK8"
 
@@ -86,8 +80,7 @@
   event_name: "RubyConf Argentina 2014"
   published_at: "2018-02-09"
   announced_at: "TODO"
-  description: |-
-    RubyConf Argentina 2014
+  description: ""
   video_provider: "youtube"
   video_id: "8LmhdAOmIQ8"
 
@@ -100,8 +93,7 @@
   language: "spanish"
   published_at: "2018-02-09"
   announced_at: "TODO"
-  description: |-
-    RubyConf Argentina 2014
+  description: ""
   video_provider: "youtube"
   video_id: "5XUQZR9NDIU"
 
@@ -114,8 +106,7 @@
   language: "spanish"
   published_at: "2018-02-09"
   announced_at: "TODO"
-  description: |-
-    RubyConf Argentina 2014
+  description: ""
   video_provider: "youtube"
   video_id: "oc6l-ubzWRs"
 
@@ -128,8 +119,7 @@
   language: "spanish"
   published_at: "2018-02-11"
   announced_at: "TODO"
-  description: |-
-    RubyConf Argentina 2014
+  description: ""
   video_provider: "youtube"
   video_id: "ZLLedMuDcpM"
 
@@ -141,8 +131,7 @@
   event_name: "RubyConf Argentina 2014"
   published_at: "2018-02-11"
   announced_at: "TODO"
-  description: |-
-    RubyConf Argentina 2014
+  description: ""
   video_provider: "youtube"
   video_id: "KgwkuyljzJo"
 
@@ -154,8 +143,7 @@
   event_name: "RubyConf Argentina 2014"
   published_at: "2018-02-11"
   announced_at: "TODO"
-  description: |-
-    RubyConf Argentina 2014
+  description: ""
   video_provider: "youtube"
   video_id: "9sUvT0faNMc"
 
@@ -167,21 +155,19 @@
   event_name: "RubyConf Argentina 2014"
   published_at: "2018-02-11"
   announced_at: "TODO"
-  description: |-
-    RubyConf Argentina 2014
+  description: ""
   video_provider: "youtube"
   video_id: "seqATiP6Pps"
 
 - title: "Lightning Talks"
   raw_title: "Lightning Talks"
   speakers:
-    - Elcuervo
+    - TODO
   date: "2014-10-25"
   event_name: "RubyConf Argentina 2014"
   published_at: "2018-02-12"
   announced_at: "TODO"
-  description: |-
-    RubyConf Argentina 2014
+  description: ""
   video_provider: "youtube"
   video_id: "w90f1FLk9jc"
 
@@ -194,8 +180,7 @@
   language: "spanish"
   published_at: "2018-02-12"
   announced_at: "TODO"
-  description: |-
-    RubyConf Argentina 2014
+  description: ""
   video_provider: "youtube"
   video_id: "oJm5gmnTvks"
 
@@ -207,8 +192,7 @@
   event_name: "RubyConf Argentina 2014"
   published_at: "2018-02-12"
   announced_at: "TODO"
-  description: |-
-    RubyConf Argentina 2014
+  description: ""
   video_provider: "youtube"
   video_id: "BQ1hbpnd4i0"
 
@@ -221,8 +205,7 @@
   language: "spanish"
   published_at: "2018-02-12"
   announced_at: "TODO"
-  description: |-
-    RubyConf Argentina 2014
+  description: ""
   video_provider: "youtube"
   video_id: "ELKjfOp6HoQ"
 
@@ -234,7 +217,6 @@
   event_name: "RubyConf Argentina 2014"
   published_at: "2018-02-12"
   announced_at: "TODO"
-  description: |-
-    RubyConf Argentina 2014
+  description: ""
   video_provider: "youtube"
   video_id: "fOMGzRHhPmI"
