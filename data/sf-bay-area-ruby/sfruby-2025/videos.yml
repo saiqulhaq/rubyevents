@@ -290,8 +290,8 @@
   video_provider: "scheduled"
   video_id: "sarah-mei-sfruby-2025"
 
-- title: "Talk by Kasper Timm Hansen"
-  raw_title: "SF Ruby 2025 - Talk by Kasper Timm Hansen"
+- title: "Workshop by Kasper Timm Hansen"
+  raw_title: "SF Ruby 2025 - Workshop by Kasper Timm Hansen"
   speakers:
     - Kasper Timm Hansen
   event_name: "SF Ruby 2025"
