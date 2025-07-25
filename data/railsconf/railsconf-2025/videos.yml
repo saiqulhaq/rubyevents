@@ -405,7 +405,7 @@
   video_provider: "youtube"
   video_id: "lVVnC6n-v-M"
 
-- title: "Rails Then, Now, And Next: A Conversation With Our Community"
+- title: "Panel: Rails Then, Now, And Next: A Conversation With Our Community"
   raw_title: "Rails Then, Now, And Next: A Conversation With Our Community"
   event_name: "RailsConf 2025"
   description: |-
@@ -563,7 +563,7 @@
 
     ...until now.
   speakers:
-    - Aji Slater
+    - Christopher "Aji" Slater
   date: "2025-07-10"
   published_at: "2025-07-23"
   announced_at: "TODO"
@@ -588,6 +588,7 @@
   id: "kevin-murphy-railsconf-2025"
   video_provider: "youtube"
   video_id: "2WkBHoGAlpY"
+  slides_url: "https://speakerdeck.com/kevinmurphy/how-10-years-of-railsconfs-can-inform-the-next-10-years-of-your-career"
 
 - title: "The Front-end is Omakase"
   raw_title: "The Front-end is Omakase"
@@ -639,6 +640,7 @@
   id: "vladimir-dementyev-albert-pazderin-railsconf-2025"
   video_provider: "youtube"
   video_id: "S_NKftfM1T4"
+  slides_url: "https://speakerdeck.com/aface/the-future-of-rails-begins-in-the-browser"
 
 - title: "Not Invented Here: Things Rails Didn't Innovate"
   raw_title: "Not Invented Here: Things Rails Didn't Innovate"
@@ -706,7 +708,7 @@
 
     PWA implementations are evolving. The new `ActionNotifier` gem is on its way to make it easier to send push notifications. But PWAs have a lot more to offer and you can start using them today in a Rails way so you can be ready for when Rails is indeed, full PWA-ready.
   speakers:
-    - Edy Silva
+    - Edigleysson Silva
   date: "2025-07-10"
   published_at: "2025-07-23"
   announced_at: "TODO"
