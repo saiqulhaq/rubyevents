@@ -966,7 +966,7 @@
       video_id: "brook-kuhlmann-lightning-talks-railsconf-2025"
       video_provider: "parent"
       speakers:
-        - Brook Kuhlmann
+        - Brooke Kuhlmann
 
     - title: "Lightning Talk: What is `Data` class?"
       event_name: "RailsConf 2025"
