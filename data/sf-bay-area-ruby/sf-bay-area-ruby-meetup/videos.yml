@@ -1877,7 +1877,7 @@
       video_id: "welcome-intro-chime-sf-bay-area-ruby-meetup-june-2025"
       video_provider: "parent"
       speakers:
-        - Chime Team
+        - Brandt Sheets
 
     - title: "San Francisco Ruby Conference Announcement and CFP"
       start_cue: "01:35"
