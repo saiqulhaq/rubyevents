@@ -896,7 +896,8 @@
   raw_title: "RailsConf 2025 - The Closing of RailsConf with Chris Oliver and Ufuk Kayserilioglu"
   event_name: "RailsConf 2025"
   description: |-
-    speakers:
+    The end of RailsConf
+  speakers:
     - Chris Oliver
     - Ufuk Kayserilioglu
   date: "2025-07-09"
