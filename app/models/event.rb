@@ -55,6 +55,7 @@ class Event < ApplicationRecord
 
   has_object :schedule
   has_object :static_metadata
+  has_object :cfp
 
   def talks_in_running_order(child_talks: true)
     talks.in_order_of(:video_id, video_ids_in_running_order(child_talks: child_talks))
@@ -322,11 +323,5 @@ class Event < ApplicationRecord
       featured_color: static_metadata.featured_color,
       url: Router.event_url(self, host: "#{request.protocol}#{request.host}:#{request.port}")
     }
-  end
-
-  def cfp_open?
-    return cfp_open_date <= Date.today if cfp_open_date.present?
-
-    cfp_close_date > Date.today
   end
 end
