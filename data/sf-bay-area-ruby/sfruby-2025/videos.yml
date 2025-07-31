@@ -146,18 +146,6 @@
   video_provider: "scheduled"
   video_id: "jp-camara-sfruby-2025"
 
-- title: "Talk by Brian Knoles"
-  raw_title: "SF Ruby 2025 - Talk by Brian Knoles"
-  speakers:
-    - Brian Knoles
-  event_name: "SF Ruby 2025"
-  date: "2025-11-19"
-  published_at: "TODO"
-  description: |-
-    Brian leads development at Bellawatt, a software consultancy that works with energy companies. He's a co-author of Inertia Rails and loves using Rails and React together. He's known to say "I wonder..." a lot, and he often spends the daily walks with his inexhaustible dog lost in thought.
-  video_provider: "scheduled"
-  video_id: "brian-knoles-sfruby-2025"
-
 - title: "Talk by Paweł Strzałkowski"
   raw_title: "SF Ruby 2025 - Talk by Paweł Strzałkowski"
   speakers:
@@ -342,12 +330,15 @@
   raw_title: "SF Ruby 2025 - Talk by Svyatoslav Kryukov"
   speakers:
     - Brandon Shar
+    - Brian Knoles
     - Svyatoslav Kryukov
   event_name: "SF Ruby 2025"
   date: "2025-11-19"
   published_at: "TODO"
   description: |-
     Brandon is a Staff Software Engineer focused on AI product development. Co-creator of Inertia Rails and Inertia Django. Passionate about full-stack engineering, product focused development, and expressive, simple, and changeable code. Currently hooked on MCP servers and AI-enabled productivity boosts.
+
+    Brian leads development at Bellawatt, a software consultancy that works with energy companies. He's a co-author of Inertia Rails and loves using Rails and React together. He's known to say "I wonder..." a lot, and he often spends the daily walks with his inexhaustible dog lost in thought.
 
     Svyat is passionate about bridging backend and frontend worlds in Ruby. He's the creator of Skooma for strong interfaces and TurboMount for bringing modern widgets to Hotwire, and a key contributor to Inertia Rails. When he's not coding, Svyat is a true coffee geek, always searching for the perfect pour over setup.
   video_provider: "scheduled"
