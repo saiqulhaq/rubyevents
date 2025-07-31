@@ -279,6 +279,7 @@
   year: "2024"
   videos_count: 58
   slug: railsconf-2024
+  website: https://2024.railsconf.org
   banner_background: "#DB525A"
   featured_background: "#231F20"
   featured_color: "#FFFFFF"
@@ -299,7 +300,7 @@
   banner_background: "#FFFFFA"
   featured_background: "#FFFFFA"
   featured_color: "000000"
-  website: https://ti.to/railsconf/2025?ref=rubyevents.org
+  website: https://railsconf.org
   last_edition: true
   cfp_open_date: "2025-01-31"
   cfp_close_date: "2025-02-28"
