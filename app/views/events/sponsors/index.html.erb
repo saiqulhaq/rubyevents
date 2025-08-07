@@ -19,7 +19,11 @@
                   <% if sponsor.has_logo_image? %>
                     <%= image_tag sponsor.logo_image_path,
                           alt: "#{sponsor.name} logo",
-                          class: "max-w-full max-h-full object-contain" %>
+                          class: "max-w-full max-h-full object-contain",
+                          onerror: "this.style.display='none'; this.nextElementSibling.style.display='block';" %>
+                    <div class="text-center" style="display: none;">
+                      <span class="text-sm font-medium text-gray-700"><%= sponsor.name %></span>
+                    </div>
                   <% else %>
                     <div class="text-center">
                       <span class="text-sm font-medium text-gray-700"><%= sponsor.name %></span>
