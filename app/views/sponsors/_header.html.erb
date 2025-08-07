@@ -18,14 +18,25 @@
 <div class="container py-8">
   <div class="block lg:flex gap-8 align-center justify-between">
     <div class="flex flex-col lg:flex-row gap-8 items-center lg:justify-right text-center lg:text-left mb-6 lg:mb-0">
-      <% if sponsor.sponsor_image_for("avatar.webp") %>
+      <% if sponsor.has_logo_image? %>
+        <%= image_tag sponsor.logo_image_path,
+              class: "rounded-lg border border-[#D9DFE3] size-24 md:size-36 object-contain p-2",
+              alt: "#{sponsor.name} Logo",
+              style: "view-transition-name: avatar",
+              loading: :lazy,
+              onerror: "this.style.display='none'; this.nextElementSibling.style.display='flex';" %>
+        <div class="rounded-lg border border-[#D9DFE3] size-24 md:size-36 bg-gray-100 items-center justify-center hidden"
+             style="view-transition-name: avatar">
+          <span class="text-4xl md:text-6xl font-bold text-gray-600"><%= sponsor.name.first %></span>
+        </div>
+      <% elsif sponsor.sponsor_image_for("avatar.webp") %>
         <%= image_tag image_path(sponsor.avatar_image_path),
-              class: "rounded-full border border-[#D9DFE3] size-24 md:size-36",
+              class: "rounded-lg border border-[#D9DFE3] size-24 md:size-36",
               alt: "#{sponsor.name} Avatar",
               style: "view-transition-name: avatar",
               loading: :lazy %>
       <% else %>
-        <div class="rounded-full border border-[#D9DFE3] size-24 md:size-36 bg-gray-100 flex items-center justify-center"
+        <div class="rounded-lg border border-[#D9DFE3] size-24 md:size-36 bg-gray-100 flex items-center justify-center"
              style="view-transition-name: avatar">
           <span class="text-4xl md:text-6xl font-bold text-gray-600"><%= sponsor.name.first %></span>
         </div>
