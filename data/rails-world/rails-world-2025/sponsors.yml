@@ -196,9 +196,9 @@
           slug: Gusto
           logo_url: https://rubyonrails.org/assets/images/logo-gusto.svg
 
-        - name: Planet Aragon
+        - name: Planet Argon
           website: https://www.planetargon.com/
-          slug: PlanetAragon
+          slug: planetargon
           logo_url: https://rubyonrails.org/assets/world/2025/images/sponsors/RW-logo-planet-aragon.svg
 
         - name: Renuo

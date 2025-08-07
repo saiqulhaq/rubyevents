@@ -95,7 +95,7 @@
           slug: seafoammedia
           logo_url: https://rubyconf.org/images/uploads/sea-foam-media-logo.png
 
-        - name: Scout APM
+        - name: Scout Monitoring
           website: https://www.scoutapm.com/
           slug: scoutapm
           logo_url: https://rubyconf.org/images/uploads/scout-logo.png

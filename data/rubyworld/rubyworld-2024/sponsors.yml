@@ -28,9 +28,9 @@
           slug: ESM,Inc.
           logo_url: https://2024.rubyworld-conf.org/images/sponsors/esm_co_jp.png
 
-        - name: Agileware Inc.
+        - name: Agileware
           website: https://agileware.jp/
-          slug: AgilewareInc.
+          slug: agileware
           logo_url: https://2024.rubyworld-conf.org/images/sponsors/agileware_jp.png
 
         - name: Far End Technologies Corporation
