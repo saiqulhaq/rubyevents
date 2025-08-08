@@ -6,7 +6,7 @@
       sponsors:
         - name: AppSignal
           website: https://www.appsignal.com/
-          slug: AppSignal
+          slug: appsignal
           logo_url: https://rubyonrails.org/assets/world/2024/images/sponsors/RW-logo-appsignal.svg
 
     - name: Gold
@@ -15,27 +15,27 @@
       sponsors:
         - name: Shopify
           website: https://www.shopify.com/
-          slug: Shopify
+          slug: shopify
           logo_url: https://rubyonrails.org/assets/world/2025/images/sponsors/RW-logo-shopify.svg
 
         - name: GitHub
           website: https://www.github.com/
-          slug: GitHub
+          slug: github
           logo_url: https://rubyonrails.org/assets/world/2025/images/sponsors/RW-logo-github.svg
 
         - name: Framework
           website: https://frame.work/
-          slug: Framework
+          slug: framework
           logo_url: https://rubyonrails.org/assets/world/2025/images/sponsors/RW-logo-framework.png
 
         - name: JetBrains
           website: https://www.jetbrains.com/
-          slug: JetBrains
+          slug: jetbrains
           logo_url: https://rubyonrails.org/assets/world/2023/images/sponsors/RW-logo-jetbrains1.svg
 
         - name: Basecamp
           website: https://basecamp.com/
-          slug: Basecamp
+          slug: basecamp
           logo_url: https://rubyonrails.org/assets/world/2025/images/sponsors/RW-logo-basecamp.svg
 
     - name: Silver
@@ -44,37 +44,37 @@
       sponsors:
         - name: Codeminer42
           website: https://www.codeminer42.com/?utm_source=railsworld2025&utm_medium=website&utm_campaign=sponsor
-          slug: Codeminer42
+          slug: codeminer42
           logo_url: https://rubyonrails.org/assets/world/2025/images/sponsors/RW-logo-codeminer42.png
 
         - name: Buzzsprout
           website: https://www.buzzsprout.com/
-          slug: Buzzsprout
+          slug: buzzsprout
           logo_url: https://rubyonrails.org/assets/world/2024/images/sponsors/RW-logo-buzzsprout.svg
 
         - name: Crunchy Data
           website: https://www.crunchydata.com/
-          slug: CrunchyData
+          slug: crunchydata
           logo_url: https://rubyonrails.org/assets/world/2025/images/sponsors/RW-logo-crunchydata.png
 
         - name: GitLab
           website: https://about.gitlab.com/
-          slug: GitLab
+          slug: gitlab
           logo_url: https://rubyonrails.org/assets/world/2025/images/sponsors/RW-logo-gitlab.svg
 
         - name: Huntress
           website: https://www.huntress.com/
-          slug: Huntress
+          slug: huntress
           logo_url: https://rubyonrails.org/assets/world/2024/images/sponsors/RW-logo-huntress.svg
 
         - name: Intercom
           website: https://www.intercom.com/
-          slug: Intercom
+          slug: intercom
           logo_url: https://rubyonrails.org/assets/world/2023/images/sponsors/RW-logo-intercom.svg
 
-        - name: Makandra
+        - name: makandra
           website: https://makandra.de/en
-          slug: Makandra
+          slug: makandra
           logo_url: https://rubyonrails.org/assets/world/2024/images/sponsors/RW-logo-makandra.svg
 
         - name: Heroku
@@ -84,12 +84,12 @@
 
         - name: Sentry
           website: https://sentry.io/
-          slug: Sentry
+          slug: sentry
           logo_url: https://rubyonrails.org/assets/world/2024/images/sponsors/RW-logo-sentry.svg
 
         - name: Wyeworks
           website: https://www.wyeworks.com/
-          slug: Wyeworks
+          slug: wyeworks
           logo_url: https://rubyonrails.org/assets/world/2025/images/sponsors/RW-logo-wyeworks.svg
 
     - name: Members
@@ -98,77 +98,77 @@
       sponsors:
         - name: Cedarcode
           website: https://www.cedarcode.com/
-          slug: Cedarcode
+          slug: cedarcode
           logo_url: https://rubyonrails.org/assets/world/2024/images/sponsors/RW-logo-cedarcode.svg
 
         - name: Typesense
           website: https://typesense.org/
-          slug: Typesense
+          slug: typesense
           logo_url: https://rubyonrails.org/assets/world/2025/images/sponsors/RW-logo-typesense.svg
 
         - name: Avo
           website: https://avohq.io/rails-admin
-          slug: Avo
+          slug: avo
           logo_url: https://rubyonrails.org/assets/world/2025/images/sponsors/RW-logo-avo.svg
 
         - name: Aha!
           website: https://www.aha.io/
-          slug: Aha!
+          slug: aha
           logo_url: https://rubyonrails.org/assets/world/2025/images/sponsors/RW-logo-aha.png
 
         - name: Telos Labs
           website: https://hi.teloslabs.co/
-          slug: TelosLabs
+          slug: teloslabs
           logo_url: https://rubyonrails.org/assets/world/2024/images/sponsors/RW-logo-teloslabs.svg
 
         - name: ODDS
           website: https://odds.team/
-          slug: ODDS
+          slug: odds
           logo_url: https://rubyonrails.org/assets/world/2025/images/sponsors/RW-logo-odds.svg
 
         - name: Rompslomp
           website: https://rompslomp.nl/
-          slug: Rompslomp
+          slug: rompslomp
           logo_url: https://rubyonrails.org/assets/world/2023/images/sponsors/RW-logo-rompslomp2.svg
 
         - name: TRMNL
           website: https://usetrmnl.com/
-          slug: TRMNL
+          slug: trmnl
           logo_url: https://rubyonrails.org/assets/world/2025/images/sponsors/RW-logo-trmnl.png
 
         - name: IQ Lab
           website: https://www.iqlab.us/
-          slug: IQLab
+          slug: iqlab
           logo_url: https://rubyonrails.org/assets/world/2025/images/sponsors/RW-logo-iqlab.png
 
-        - name: Andpad
+        - name: ANDPAD Inc.
           website: https://andpad.co.jp/
-          slug: Andpad
+          slug: andpad
           logo_url: https://rubyonrails.org/assets/world/2025/images/sponsors/RW-logo-andpad.png
 
         - name: Cookpad
           website: https://cookpad.com/uk
-          slug: Cookpad
+          slug: cookpad
           logo_url: https://rubyonrails.org/assets/world/2024/images/sponsors/RW-logo-cookpad.svg
 
         - name: Doximity
           website: https://www.doximity.com/
-          slug: Doximity
+          slug: doximity
           logo_url: https://rubyonrails.org/assets/world/2024/images/sponsors/RW-logo-doximity.svg
 
         - name: Fleetio
           website: https://www.fleetio.com/
-          slug: Fleetio
+          slug: fleetio
           logo_url: https://rubyonrails.org/assets/world/2024/images/sponsors/RW-logo-fleetio.svg
 
         - name: Judge.me
           website: https://judge.me/
-          slug: Judge.me
+          slug: judgeme
           logo_url: https://rubyonrails.org/assets/images/logo-judgeme.svg
 
         - name: Procore
           website: https://www.procore.com/en-gb
-          slug: Procore
+          slug: procore
           logo_url: https://rubyonrails.org/assets/world/2024/images/sponsors/RW-logo-procore.svg
 
         - name: 1password
@@ -183,17 +183,17 @@
 
         - name: BigBinary
           website: https://www.bigbinary.com/
-          slug: BigBinary
+          slug: bigbinary
           logo_url: https://rubyonrails.org/assets/world/2025/images/sponsors/RW-logo-bigbinary.svg
 
         - name: Clio
           website: https://www.clio.com/
-          slug: Clio
+          slug: clio
           logo_url: https://rubyonrails.org/assets/world/2025/images/sponsors/RW-logo-clio.svg
 
         - name: Gusto
           website: https://gusto.com/
-          slug: Gusto
+          slug: gusto
           logo_url: https://rubyonrails.org/assets/images/logo-gusto.svg
 
         - name: Planet Argon
@@ -203,15 +203,15 @@
 
         - name: Renuo
           website: https://www.renuo.ch/
-          slug: Renuo
+          slug: renuo
           logo_url: https://rubyonrails.org/assets/images/logo-renuo.svg
 
         - name: Saeloun
           website: https://www.saeloun.com/
-          slug: Saeloun
+          slug: saeloun
           logo_url: https://rubyonrails.org/assets/world/2024/images/sponsors/RW-logo-saeloun.svg
 
         - name: Tablecheck
           website: https://www.tablecheck.com/en/join/
-          slug: Tablecheck
+          slug: tablecheck
           logo_url: https://rubyonrails.org/assets/world/2024/images/sponsors/RW-logo-tablecheck.svg
