@@ -21,7 +21,7 @@
       </div>
     <% end %>
 
-    <span><%= sponsor.name %></span>
+    <span class="line-clamp-1"><%= sponsor.name %></span>
   </div>
 
   <%= ui_badge(sponsor.events.count, kind: :secondary, outline: true, size: :lg, class: "min-w-10") %>
