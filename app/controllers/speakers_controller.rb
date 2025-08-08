@@ -29,6 +29,7 @@ class SpeakersController < ApplicationController
     @topics = @speaker.topics.approved.tally.sort_by(&:last).reverse.map(&:first)
     @events = @speaker.events.includes(:organisation).distinct.order(start_date: :desc)
     @events_with_stickers = @events.select(&:sticker?)
+    @events_by_year = @events.group_by { |event| event.start_date&.year || "Unknown" }
 
     # Group events by country for the map tab
     @countries_with_events = @events.map { |event|
