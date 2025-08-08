@@ -3,6 +3,24 @@
     <%= title "Sponsors" %>
   </h1>
 
+  <% if @featured_sponsors.present? %>
+    <div class="my-8 hotwire-native:hidden">
+      <div class="relative" data-controller="scroll">
+        <div class="overflow-x-auto scroll-smooth snap-x snap-mandatory" data-scroll-target="container" data-action="scroll->scroll#checkScroll">
+          <div class="flex pb-4 gap-4">
+            <% @featured_sponsors.each do |sponsor| %>
+              <div class="snap-start" data-scroll-target="card">
+                <%= render partial: "sponsors/card", locals: {sponsor: sponsor} %>
+              </div>
+            <% end %>
+          </div>
+        </div>
+
+        <div class="absolute right-0 top-0 h-full w-24 bg-gradient-to-l from-white to-transparent pointer-events-none" data-scroll-target="gradient"></div>
+      </div>
+    </div>
+  <% end %>
+
   <div class="flex flex-wrap w-full justify-between py-8 hotwire-native:hidden gap-1">
     <% ("a".."z").each do |letter| %>
       <%= link_to sponsors_path(letter: letter), class: class_names("flex items-center justify-center w-10 text-gray-500 rounded hover:bg-brand-lighter border", "bg-brand-lighter": letter == params[:letter]) do %>

@@ -6,6 +6,7 @@ class SponsorsController < ApplicationController
   def index
     @sponsors = Sponsor.order(:name)
     @sponsors = @sponsors.where("lower(name) LIKE ?", "#{params[:letter].downcase}%") if params[:letter].present?
+    @featured_sponsors = Sponsor.joins(:event_sponsors).group("sponsors.id").order("COUNT(event_sponsors.id) DESC").limit(25)
   end
 
   # GET /sponsors/1
