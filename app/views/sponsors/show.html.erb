@@ -4,12 +4,19 @@
   <div class="container py-8">
     <%= render partial: "navigation", locals: {sponsor: @sponsor} %>
 
-    <% if @sponsor.events.any? %>
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-        <% @sponsor.events.order(start_date: :desc).includes(:organisation).each do |event| %>
-          <%= render "events/card", event: event %>
-        <% end %>
-      </div>
+    <% if @events_by_year.any? %>
+      <% @events_by_year.each do |year, events| %>
+        <div class="mb-12">
+          <h2 class="text-2xl font-bold text-gray-900 mb-6">
+            <%= year %>
+          </h2>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <% events.each do |event| %>
+              <%= render "events/card", event: event %>
+            <% end %>
+          </div>
+        </div>
+      <% end %>
     <% else %>
       <div class="text-center py-12 text-gray-500">
         <p class="text-lg">No supported events yet.</p>
