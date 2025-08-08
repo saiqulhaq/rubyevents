@@ -12,6 +12,7 @@ class SponsorsController < ApplicationController
   # GET /sponsors/1
   def show
     @back_path = sponsors_path
+    @events_by_year = @sponsor.events.order(start_date: :desc).includes(:organisation).group_by { |event| event.start_date&.year || "Unknown" }
   end
 
   private

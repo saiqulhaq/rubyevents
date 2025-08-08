@@ -19,6 +19,10 @@ class EventsController < ApplicationController
 
     if @event.meetup?
       redirect_to event_events_path(@event)
+    elsif @event.talks.any?
+      redirect_to event_talks_path(@event)
+    elsif @event.sponsors.any?
+      redirect_to event_sponsors_path(@event)
     else
       redirect_to event_talks_path(@event)
     end
