@@ -1,103 +1,103 @@
 ---
 - tiers:
     - name: Gold
-      description: ''
+      description: ""
       level: 1
       sponsors:
         - name: Shopify
-          badge: ''
+          badge: ""
           website: https://www.shopify.com
           slug: shopify
           logo_url: https://framerusercontent.com/images/gm8gVlKt1h1h0nWWV5YmLIawBxI.png
 
         - name: Cisco Meraki
-          badge: ''
+          badge: ""
           website: https://meraki.cisco.com/careers/
           slug: meraki
           logo_url: https://framerusercontent.com/images/XrUfvgOhr6ws5E3GpejwlVfFCA.png
 
     - name: Silver
-      description: ''
+      description: ""
       level: 2
       sponsors:
         - name: Crunchy Data
-          badge: ''
+          badge: ""
           website: https://www.crunchydata.com
           slug: crunchy-data
           logo_url: https://framerusercontent.com/images/WopZh3NdEMxRmnYEGh9TrrTLuo.svg
 
         - name: Chime
-          badge: ''
+          badge: ""
           website: https://www.chime.com
           slug: chime
           logo_url: https://framerusercontent.com/images/YgFTjg4dqTXIzjVTrPDg0bBqSk.png
 
         - name: TrueCar
-          badge: ''
+          badge: ""
           website: https://www.truecar.com
           slug: truecar
           logo_url: https://framerusercontent.com/images/Qeqy4zc8pFyh9FThUKGJMrFBk8c.png
 
         - name: JetBrains
-          badge: ''
+          badge: ""
           website: https://www.jetbrains.com
           slug: jetbrains
           logo_url: https://framerusercontent.com/images/TxhCdzoD94shoRM9wEIuQg0s8.png
 
         - name: Procore
-          badge: ''
+          badge: ""
           website: https://www.procore.com
           slug: procore
           logo_url: https://framerusercontent.com/images/XO5CFczyX6Z9m5uXKf684Q4vtGs.png
 
     - name: Bronze
-      description: ''
+      description: ""
       level: 3
       sponsors:
         - name: Ontra
-          badge: ''
+          badge: ""
           website: https://www.ontra.ai/
           slug: ontra
           logo_url: https://framerusercontent.com/images/NaRzVKo8vQ3FfKI7wyo2nqik9Hs.png
 
         - name: Cedarcode
-          badge: ''
+          badge: ""
           website: https://www.cedarcode.com/
           slug: cedarcode
           logo_url: https://framerusercontent.com/images/dc223cm715ASCKTexnniCbF73Pg.png
 
         - name: Weedmaps
-          badge: ''
+          badge: ""
           website: https://weedmaps.com
           slug: weedmaps
           logo_url: https://framerusercontent.com/images/UZjJ2rDkZ4GS0bch28ntg3YqPg.png
 
         - name: RailsFactory
-          badge: ''
+          badge: ""
           website: https://railsfactory.com/
           slug: railsfactory
           logo_url: https://framerusercontent.com/images/zleTmMZcWYJNKc1yvzGOv15FaxY.png
 
         - name: Scout APM
-          badge: ''
+          badge: ""
           website: https://scoutapm.com
           slug: scout-apm
           logo_url: https://framerusercontent.com/images/7qWKEisfPElVagcmVf0LUc59O4c.png
 
         - name: Release
-          badge: ''
+          badge: ""
           website: https://release.com
           slug: release
           logo_url: https://framerusercontent.com/images/6djrnB7JoZvheUYtenGwIX8n0.png
 
         - name: Retool
-          badge: ''
+          badge: ""
           website: https://www.retool.com/
           slug: retool
           logo_url: https://framerusercontent.com/images/qDViTsbN97i3oZeFpKkuoVaAQFQ.jpg
 
     - name: Other
-      description: ''
+      description: ""
       level: 4
       sponsors:
         - name: Wyeworks
