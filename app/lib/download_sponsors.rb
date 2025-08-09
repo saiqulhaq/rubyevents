@@ -48,11 +48,12 @@ class DownloadSponsors
       type: "object",
       properties: {
         name: {type: "string", description: "Name of the sponsor"},
+        badge: {type: "string", description: "Extra badge/tag when this sponsor sponored something besides the tier. Usually something like 'Drinkup Sponsor', 'Climbing Sponsor', 'Hack Space Sponsor', 'Nursery Sponsor', 'Scheduler and Drinkup Sponsor', 'Design Sponsor', 'Party Sponsor', 'Lightning Talks Sponsor' or similar. Leave empty if none applies."},
         website: {type: "string", description: "URL for the sponsor"},
-        slug: {type: "string", description: "name without spaces"},
-        logo_url: {type: "string", description: "Full URL path for logo, if it is a relative include the #{URI(url).origin} as the host, else keep the original URL"}
+        slug: {type: "string", description: "name without spaces, url-safe, all-lowercase, dasherized"},
+        logo_url: {type: "string", description: url ? "Full URL path for logo, if it is a relative path include the #{URI(url).origin} as the host, else keep the original URL" : "Full URL path for logo"}
       },
-      required: ["name", "website", "logo_url", "slug"],
+      required: ["name", "badge", "website", "logo_url", "slug"],
       additionalProperties: false
     }
 
@@ -60,8 +61,8 @@ class DownloadSponsors
       type: "object",
       properties: {
         name: {type: "string", description: "Name of the tier"},
-        description: {type: "string", description: "sponsor description"},
-        level: {type: "integer", description: "positive integer representing the sponsorship hierarchy where 1 is highest, always start at 1,  and lower numbers indicate lower sponsorship"},
+        description: {type: "string", description: "sponsor description as written on the website. Leave blank if there is no exact description of this tier."},
+        level: {type: "integer", description: "positive integer representing the sponsorship hierarchy where 1 is highest. Always start at 1. Higher numbers indicate lower sponsorship hierarchy."},
         sponsors: {
           type: "array",
           items: sponsor_schema
