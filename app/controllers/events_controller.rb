@@ -17,15 +17,12 @@ class EventsController < ApplicationController
   def show
     set_meta_tags(@event)
 
-    if @event.meetup?
-      redirect_to event_events_path(@event)
-    elsif @event.talks.any?
-      redirect_to event_talks_path(@event)
-    elsif @event.sponsors.any?
-      redirect_to event_sponsors_path(@event)
-    else
-      redirect_to event_talks_path(@event)
-    end
+    @keynotes = @event.talks.joins(:speakers).where(kind: "keynote").includes(:speakers, event: :organisation)
+    @recent_talks = @event.talks.watchable.includes(:speakers, event: :organisation).limit(8).shuffle
+    keynote_speakers = @event.speakers.joins(:talks).where(talks: {kind: "keynote"}).distinct
+    other_speakers = @event.speakers.joins(:talks).where.not(talks: {kind: "keynote"}).distinct.limit(8)
+    @featured_speakers = (keynote_speakers + other_speakers.first(8 - keynote_speakers.size)).uniq.shuffle
+    @sponsors = @event.event_sponsors.includes(:sponsor).joins(:sponsor).shuffle
   end
 
   # GET /events/1/edit

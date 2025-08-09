@@ -95,6 +95,7 @@ Rails.application.routes.draw do
       resources :events, only: [:index]
       resources :videos, only: [:index]
       resources :sponsors, only: [:index]
+      resources :cfp, only: [:index]
     end
   end
   resources :organisations, param: :slug, only: [:index, :show]
