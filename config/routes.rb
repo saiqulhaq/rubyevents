@@ -2,13 +2,14 @@
 #
 
 Rails.application.routes.draw do
+  namespace :sponsors do
+    resources :missing, only: [:index]
+  end
+
   resources :sponsors, param: :slug, only: [:index, :show] do
     resource :logos, only: [:show, :update], controller: "sponsors/logos"
   end
 
-  namespace :sponsors do
-    resources :missing, only: [:index]
-  end
   extend Authenticator
 
   # static pages
