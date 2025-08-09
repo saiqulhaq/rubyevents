@@ -13,11 +13,21 @@ class DownloadSponsors
 
   attr_reader :session
 
-  def download_sponsors(url, save_file:)
-    sponsor_page = find_sponsor_page(url)
-    p "Page found: #{sponsor_page}"
-    sponsor_page = sponsor_page.blank? ? url : sponsor_page
-    download_sponsors_data(sponsor_page, save_file:)
+  def download_sponsors(save_file:, base_url: nil, sponsors_url: nil, html: nil)
+    provided_args = [base_url, sponsors_url, html].compact
+
+    raise ArgumentError, "Exactly one of base_url, sponsors_url, or html must be provided" if provided_args.length != 1
+
+    if base_url
+      sponsor_page = find_sponsor_page(base_url)
+      p "Page found: #{sponsor_page}"
+      sponsor_page = sponsor_page.blank? ? base_url : sponsor_page
+      download_sponsors_data(sponsor_page, save_file:)
+    elsif sponsors_url
+      download_sponsors_data(sponsors_url, save_file:)
+    elsif html
+      download_sponsors_data_from_html(html, save_file:)
+    end
   end
 
   def find_sponsor_page(url)
@@ -43,7 +53,18 @@ class DownloadSponsors
   def download_sponsors_data(url, save_file:)
     session.visit(url)
     session.driver.wait_for_network_idle
+    extract_and_save_sponsors_data(session.html, save_file, url)
+  ensure
+    session&.driver&.quit
+  end
 
+  def download_sponsors_data_from_html(html_content, save_file:)
+    extract_and_save_sponsors_data(html_content, save_file)
+  end
+
+  private
+
+  def extract_and_save_sponsors_data(html_content, save_file, url = nil)
     sponsor_schema = {
       type: "object",
       properties: {
@@ -76,9 +97,7 @@ class DownloadSponsors
       tiers: {type: "array", items: tier_schema}
     }
 
-    result = ActiveGenie::DataExtractor.call(session.html, schema)
+    result = ActiveGenie::DataExtractor.call(html_content, schema)
     File.write(save_file, [result.stringify_keys].to_yaml)
-  ensure
-    session&.driver&.quit
   end
 end
