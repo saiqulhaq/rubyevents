@@ -17,8 +17,11 @@
     <%= active_link_to "Schedule", event_schedules_path(event), class: "tab", active_class: "tab-active", role: "tab" %>
   <% end %>
 
-  <% if event.sponsors.any? %>
-    <%= active_link_to "Sponsors", event_sponsors_path(event), class: "tab", active_class: "tab-active", role: "tab" %>
+  <%= active_link_to event_sponsors_path(event), class: class_names("tab", {"text-red-500" => !event.sponsors.any?}), active_class: "tab-active", role: "tab" do %>
+    Sponsors
+    <% unless event.sponsors.any? %>
+      <%= fa("question-circle", size: :xs, class: "ml-1 fill-red-500") %>
+    <% end %>
   <% end %>
 
   <% if false %>
