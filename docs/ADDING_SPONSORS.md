@@ -100,12 +100,12 @@ For example:
 Typical tier hierarchy (with suggested level values):
 
 1. **Diamond/Title Sponsors** (level: 1) - Highest tier, title sponsors
-2. **Platinum Sponsors** (level: 1) - Premium sponsors
-3. **Gold Sponsors** (level: 2) - Major sponsors
-4. **Silver Sponsors** (level: 3) - Standard sponsors
-5. **Bronze Sponsors** (level: 4) - Entry-level sponsors
-6. **Community Sponsors** (level: 5) - Community supporters
-7. **Media Partners** (level: 6) - Media and promotional partners
+2. **Platinum Sponsors** (level: 2) - Premium sponsors
+3. **Gold Sponsors** (level: 3) - Major sponsors
+4. **Silver Sponsors** (level: 4) - Standard sponsors
+5. **Bronze Sponsors** (level: 5) - Entry-level sponsors
+6. **Community Sponsors** (level: 6) - Community supporters
+7. **Media Partners** (level: 7) - Media and promotional partners
 
 ## Special Sponsor Types
 
