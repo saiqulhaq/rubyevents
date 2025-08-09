@@ -41,11 +41,19 @@
 
           <% if @event.cfp_link.present? %>
             <div class="mt-8">
-              <%= link_to "Submit Your Talk Proposal",
-                    @event.cfp_link,
-                    class: "inline-flex items-center px-6 py-3 bg-primary text-white font-semibold rounded-lg hover:bg-primary-dark transition-colors duration-200",
-                    target: "_blank",
-                    rel: "noopener" %>
+              <% if @event.cfp.open? %>
+                <%= link_to "Submit Your Talk Proposal",
+                      @event.cfp_link,
+                      class: "inline-flex items-center px-6 py-3 bg-primary text-white font-semibold rounded-lg hover:bg-primary-dark transition-colors duration-200",
+                      target: "_blank",
+                      rel: "noopener" %>
+              <% else %>
+                <%= link_to "See CFP Details",
+                      @event.cfp_link,
+                      class: "inline-flex items-center px-6 py-3 bg-gray-600 text-white font-semibold rounded-lg hover:bg-gray-700 transition-colors duration-200",
+                      target: "_blank",
+                      rel: "noopener" %>
+              <% end %>
             </div>
           <% end %>
         </section>
