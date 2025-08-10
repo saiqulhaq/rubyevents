@@ -9,7 +9,7 @@ class EventsController < ApplicationController
   def index
     @events = Event.includes(:organisation, :keynote_speakers)
       .conference
-      .where(start_date: Date.today..)
+      .where(end_date: Date.today..)
       .order(start_date: :asc)
   end
 
