@@ -2,21 +2,44 @@
 
 <%= turbo_frame_tag dom_id(@sponsor), data: {turbo_action: "advance", turbo_frame: "_top"} do %>
   <div class="container py-8">
-    <%= render partial: "navigation", locals: {sponsor: @sponsor} %>
-
     <% if @events_by_year.any? %>
-      <% @events_by_year.each do |year, events| %>
-        <div class="mb-12">
-          <h2 class="text-2xl font-bold text-gray-900 mb-6">
-            <%= year %>
-          </h2>
-          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <% events.each do |event| %>
-              <%= render "events/card", event: event %>
-            <% end %>
-          </div>
+      <div role="tablist" class="tabs tabs-bordered mt-6">
+        <input type="radio" name="sponsor_tabs" role="tab" class="tab" aria-label="Supported Events (<%= @events.count %>)" checked>
+
+        <div role="tabpanel" class="tab-content mt-6">
+          <% @events_by_year.each do |year, events| %>
+            <div class="mb-12">
+              <h2 class="text-2xl font-bold text-gray-900 mb-6">
+                <%= year %>
+              </h2>
+              <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <% events.each do |event| %>
+                  <%= render "events/card", event: event %>
+                <% end %>
+              </div>
+            </div>
+          <% end %>
         </div>
-      <% end %>
+
+        <% if @countries_with_events.any? %>
+          <input type="radio" name="sponsor_tabs" role="tab" class="tab px-6" aria-label="Map (<%= @countries_with_events.count %>)">
+
+          <div role="tabpanel" class="tab-content mt-6">
+            <div class="space-y-8">
+              <% @countries_with_events.group_by { |country, _| country.continent }.sort_by(&:first).each do |continent, countries_group| %>
+                <div>
+                  <h3 class="text-lg font-semibold mb-4"><%= continent %></h3>
+                  <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                    <% countries_group.each do |country, events| %>
+                      <%= render "shared/country_card", country: country, events: events %>
+                    <% end %>
+                  </div>
+                </div>
+              <% end %>
+            </div>
+          </div>
+        <% end %>
+      </div>
     <% else %>
       <div class="text-center py-12 text-gray-500">
         <p class="text-lg">No supported events yet.</p>
