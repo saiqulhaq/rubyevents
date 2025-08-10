@@ -153,6 +153,7 @@
   thumbnail_md: "https://pbs.twimg.com/media/Gx5DplWboAA7Vrt?format=jpg"
   thumbnail_lg: "https://pbs.twimg.com/media/Gx5DplWboAA7Vrt?format=jpg&name=large"
   thumbnail_xl: "https://pbs.twimg.com/media/Gx5DplWboAA7Vrt?format=jpg&name=large"
+  slides_url: "https://speakerdeck.com/hayaokimura/risc-v-cpu-emulator-made-with-ruby-fcc3d4d1-b418-491c-b0c2-123302ea0f53"
 
 - title: "Understanding Ruby Grammar Through Conflicts"
   raw_title: "RubyConf Taiwan 2025 - Understanding Ruby Grammar Through Conflicts by Yuichiro Kaneko"
@@ -204,8 +205,15 @@
   language: "zh"
   description: |-
     Creating an MCP Server with Ruby. Shares experience implementing an MCP (Model Context Protocol) Server from scratch, covering protocol structure, implementation, testing, and security.
+
+    Repo: https://github.com/etrex/mcp_server_demo
   video_provider: "scheduled"
   video_id: "etrex-kuo-rubyconf-taiwan-2025"
+  thumbnail_xs: "https://pbs.twimg.com/media/Gx9LA7zbsAASbo7?format=jpg"
+  thumbnail_sm: "https://pbs.twimg.com/media/Gx9LA7zbsAASbo7?format=jpg"
+  thumbnail_md: "https://pbs.twimg.com/media/Gx9LA7zbsAASbo7?format=jpg"
+  thumbnail_lg: "https://pbs.twimg.com/media/Gx9LA7zbsAASbo7?format=jpg&name=large"
+  thumbnail_xl: "https://pbs.twimg.com/media/Gx9LA7zbsAASbo7?format=jpg&name=large"
 
 - title: "Building, Deploying, and Monitoring Ruby Web Applications with Falcon"
   raw_title: "RubyConf Taiwan 2025 - Building, Deploying, and Monitoring Ruby Web Applications with Falcon by Samuel Williams"
@@ -219,6 +227,11 @@
     Demonstrates building concurrent Ruby web applications using Falcon and Async, covering development, deployment, and monitoring strategies.
   video_provider: "scheduled"
   video_id: "samuel-williams-rubyconf-taiwan-2025"
+  thumbnail_xs: "https://pbs.twimg.com/media/Gx9WFJfaoAAb941?format=jpg"
+  thumbnail_sm: "https://pbs.twimg.com/media/Gx9WFJfaoAAb941?format=jpg"
+  thumbnail_md: "https://pbs.twimg.com/media/Gx9WFJfaoAAb941?format=jpg"
+  thumbnail_lg: "https://pbs.twimg.com/media/Gx9WFJfaoAAb941?format=jpg&name=large"
+  thumbnail_xl: "https://pbs.twimg.com/media/Gx9WFJfaoAAb941?format=jpg&name=large"
 
 - title: "Loosing Seat in Concurrency: A tale of Transactions and Locks"
   raw_title: "RubyConf Taiwan 2025 - Loosing Seat in Concurrency: A tale of Transactions and Locks by Aleksandr Kunin"
@@ -232,6 +245,11 @@
     Explores database concurrency problems, transaction isolation, and locking patterns using a seat booking scenario.
   video_provider: "scheduled"
   video_id: "aleksandr-kunin-rubyconf-taiwan-2025"
+  thumbnail_xs: "https://pbs.twimg.com/media/Gx9gz2yboAA8GSv?format=jpg"
+  thumbnail_sm: "https://pbs.twimg.com/media/Gx9gz2yboAA8GSv?format=jpg"
+  thumbnail_md: "https://pbs.twimg.com/media/Gx9gz2yboAA8GSv?format=jpg"
+  thumbnail_lg: "https://pbs.twimg.com/media/Gx9gz2yboAA8GSv?format=jpg&name=large"
+  thumbnail_xl: "https://pbs.twimg.com/media/Gx9gz2yboAA8GSv?format=jpg&name=large"
 
 - title: "Joy with 3D Graphics Using Ruby"
   raw_title: "RubyConf Taiwan 2025 - Joy with 3D Graphics Using Ruby by Yudai Takada"
@@ -243,8 +261,15 @@
   language: "en"
   description: |-
     Introduction to 3D graphics creation using Ruby, covering basics of 3D rendering, practical examples, and step-by-step implementation for creating spinning 3D objects.
+
+    Repo: https://github.com/ydah/rubyconftw_opengl_demo
   video_provider: "scheduled"
   video_id: "yudai-takada-rubyconf-taiwan-2025"
+  thumbnail_xs: "https://pbs.twimg.com/media/Gx97I4pacAA5ACt?format=jpg"
+  thumbnail_sm: "https://pbs.twimg.com/media/Gx97I4pacAA5ACt?format=jpg"
+  thumbnail_md: "https://pbs.twimg.com/media/Gx97I4pacAA5ACt?format=jpg"
+  thumbnail_lg: "https://pbs.twimg.com/media/Gx97I4pacAA5ACt?format=jpg&name=large"
+  thumbnail_xl: "https://pbs.twimg.com/media/Gx97I4pacAA5ACt?format=jpg&name=large"
   slides_url: "https://speakerdeck.com/ydah/joy-with-3d-graphics-using-ruby"
 
 - title: "Rails Active Storage 如何避免被同事攻擊 — 你，懂 BAC 嗎？"
@@ -272,6 +297,11 @@
     Exploring the challenges and solutions for deploying and running Ruby applications on Kubernetes infrastructure.
   video_provider: "scheduled"
   video_id: "andrey-novikov-rubyconf-taiwan-2025"
+  thumbnail_xs: "https://pbs.twimg.com/media/Gx-LxVSbcAADFev?format=jpg"
+  thumbnail_sm: "https://pbs.twimg.com/media/Gx-LxVSbcAADFev?format=jpg"
+  thumbnail_md: "https://pbs.twimg.com/media/Gx-LxVSbcAADFev?format=jpg"
+  thumbnail_lg: "https://pbs.twimg.com/media/Gx-LxVSbcAADFev?format=jpg&name=large"
+  thumbnail_xl: "https://pbs.twimg.com/media/Gx-LxVSbcAADFev?format=jpg&name=large"
 
 - title: "Crafting AI-Friendly Application in Ruby"
   raw_title: "RubyConf Taiwan 2025 - Crafting AI-Friendly Application in Ruby by 蒼時弦也 / Aotoki Tsuruya"
