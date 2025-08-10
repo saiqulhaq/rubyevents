@@ -23,7 +23,7 @@ class YouTubeVideoTool < RubyLLM::Tool
       thumbnails: video.thumbnail_url,
       length: video.length,
       duration: video.duration,
-      tags: video.tags,
+      tags: video.tags
     }
   end
 end
