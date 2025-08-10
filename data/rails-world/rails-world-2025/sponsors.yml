@@ -63,6 +63,7 @@
           logo_url: https://rubyonrails.org/assets/world/2025/images/sponsors/RW-logo-gitlab.svg
 
         - name: Huntress
+          badge: Lightning Track Sponsor
           website: https://www.huntress.com/
           slug: huntress
           logo_url: https://rubyonrails.org/assets/world/2024/images/sponsors/RW-logo-huntress.svg
