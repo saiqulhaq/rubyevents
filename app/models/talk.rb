@@ -460,7 +460,7 @@ class Talk < ApplicationRecord
   end
 
   def fetch_and_update_raw_transcript!
-    youtube_transcript = Youtube::Transcript.get(video_id)
+    youtube_transcript = YouTube::Transcript.get(video_id)
     transcript = talk_transcript || Talk::Transcript.new(talk: self)
     transcript.update!(raw_transcript: ::Transcript.create_from_youtube_transcript(youtube_transcript))
   end
