@@ -468,7 +468,7 @@ class Talk < ApplicationRecord
   def fetch_duration_from_youtube!
     return unless youtube?
 
-    duration = Youtube::Video.new.duration(video_id)
+    duration = YouTube::Video.new.duration(video_id)
     update! duration_in_seconds: ActiveSupport::Duration.parse(duration).to_i
   end
 

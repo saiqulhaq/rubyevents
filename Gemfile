@@ -75,7 +75,7 @@ gem "active_genie"
 # A single delightful Ruby way to work with AI.
 gem "ruby_llm"
 
-# Youtube V3 API client.
+# YouTube V3 API client.
 gem "yt"
 
 group :development, :test do

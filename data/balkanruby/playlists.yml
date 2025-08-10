@@ -9,7 +9,7 @@
   channel_id: UCR076_JBPtcQKfiwiVOB3Cg
   year: "2018"
   videos_count: 15
-  metadata_parser: Youtube::VideoMetadata
+  metadata_parser: YouTube::VideoMetadata
   slug: balkanruby-2018
   banner_background: "#EFEFEF"
   featured_background: "#EFEFEF"
@@ -25,7 +25,7 @@
   channel_id: UCR076_JBPtcQKfiwiVOB3Cg
   year: "2019"
   videos_count: 12
-  metadata_parser: Youtube::VideoMetadata
+  metadata_parser: YouTube::VideoMetadata
   slug: balkanruby-2019
   banner_background: "#101010"
   featured_background: "#101010"
@@ -38,7 +38,7 @@
   kind: conference
   start_date: '2020-05-15'
   end_date: '2020-05-16'
-  metadata_parser: Youtube::VideoMetadata
+  metadata_parser: YouTube::VideoMetadata
   slug: balkanruby-2020
   website: https://balkanruby.com
   status: Cancelled
@@ -57,7 +57,7 @@
   channel_id: UCR076_JBPtcQKfiwiVOB3Cg
   year: "2024"
   videos_count: 12
-  metadata_parser: Youtube::VideoMetadata
+  metadata_parser: YouTube::VideoMetadata
   slug: balkanruby-2024
   banner_background: "#000000"
   featured_background: "#000000"
@@ -77,7 +77,7 @@
   channel_id: UCR076_JBPtcQKfiwiVOB3Cg
   year: "2025"
   videos_count: 12
-  metadata_parser: Youtube::VideoMetadata
+  metadata_parser: YouTube::VideoMetadata
   slug: balkanruby-2025
   banner_background: "#FDF1F3"
   featured_background: "#FDF1F3"
@@ -94,7 +94,7 @@
   kind: conference
   start_date: '2026-05-15'
   end_date: '2026-05-16'
-  metadata_parser: Youtube::VideoMetadata
+  metadata_parser: YouTube::VideoMetadata
   slug: balkanruby-2026
   website: https://balkanruby.com
   twitter: balkanruby
