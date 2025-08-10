@@ -226,6 +226,8 @@ GEM
       multipart-post (~> 2.0)
     faraday-net_http (3.4.1)
       net-http (>= 0.5.0)
+    faraday-retry (2.3.2)
+      faraday (~> 2.0)
     ferrum (0.17.1)
       addressable (~> 2.5)
       base64 (~> 0.2)
@@ -521,6 +523,15 @@ GEM
       faraday (>= 1)
       faraday-multipart (>= 1)
     ruby-progressbar (1.13.0)
+    ruby_llm (1.5.1)
+      base64
+      event_stream_parser (~> 1)
+      faraday (>= 1.10.0)
+      faraday-multipart (>= 1)
+      faraday-net_http (>= 1)
+      faraday-retry (>= 1)
+      marcel (~> 1.0)
+      zeitwerk (~> 2)
     rubyzip (2.4.1)
     safely_block (0.5.0)
     securerandom (0.4.1)
@@ -628,6 +639,8 @@ GEM
     websocket-extensions (0.1.5)
     xpath (3.2.0)
       nokogiri (~> 1.8)
+    yt (0.34.0)
+      activesupport
     zeitwerk (2.7.3)
 
 PLATFORMS
@@ -693,6 +706,7 @@ DEPENDENCIES
   redcarpet (~> 3.6)
   ruby-lsp-rails
   ruby-openai
+  ruby_llm
   selenium-webdriver
   sitemap_generator (~> 6.3)
   solid_cache
@@ -708,6 +722,7 @@ DEPENDENCIES
   vite_rails
   web-console
   webmock
+  yt
 
 RUBY VERSION
    ruby 3.4.5p51

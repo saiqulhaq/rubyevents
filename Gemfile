@@ -72,6 +72,12 @@ gem "cuprite"
 # Reusable modules for tasks like data extraction, scoring, and ranking
 gem "active_genie"
 
+# A single delightful Ruby way to work with AI.
+gem "ruby_llm"
+
+# Youtube V3 API client.
+gem "yt"
+
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[mri windows]
