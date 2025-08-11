@@ -4,21 +4,20 @@ class SponsorsController < ApplicationController
 
   # GET /sponsors
   def index
-    @sponsors = Sponsor.order(:name)
+    @sponsors = Sponsor.includes(:event_sponsors).order(:name)
     @sponsors = @sponsors.where("lower(name) LIKE ?", "#{params[:letter].downcase}%") if params[:letter].present?
-    @featured_sponsors = Sponsor.joins(:event_sponsors).group("sponsors.id").order("COUNT(event_sponsors.id) DESC").limit(25)
+    @featured_sponsors = Sponsor.joins(:event_sponsors).group("sponsors.id").order("COUNT(event_sponsors.id) DESC").limit(25).includes(:event_sponsors)
   end
 
   # GET /sponsors/1
   def show
     @back_path = sponsors_path
-    @events = @sponsor.events.order(start_date: :desc).includes(:organisation)
+    @events = @sponsor.events.includes(:organisation, :talks).order(start_date: :desc)
     @events_by_year = @events.group_by { |event| event.start_date&.year || "Unknown" }
 
-    @countries_with_events = @events.map { |event|
-      country = event.static_metadata&.country
-      [country, @events.select { |e| e.static_metadata&.country == country }] if country
-    }.compact.uniq(&:first).sort_by { |country, _| country.translations["en"] }
+    @countries_with_events = @events.group_by { |event| event.static_metadata&.country }
+      .compact
+      .sort_by { |country, _| country.translations["en"] }
 
     @statistics = prepare_sponsor_statistics
   end
@@ -29,11 +28,11 @@ class SponsorsController < ApplicationController
     event_sponsors = @sponsor.event_sponsors.includes(event: [:talks, :organisation])
 
     {
-      total_events: @events.count,
-      total_countries: @countries_with_events.count,
-      total_continents: @countries_with_events.map { |country, _| country.continent }.uniq.count,
-      total_organisations: @events.map(&:organisation).uniq.count,
-      total_talks: @events.joins(:talks).count,
+      total_events: @events.size,
+      total_countries: @countries_with_events.size,
+      total_continents: @countries_with_events.map { |country, _| country.continent }.uniq.size,
+      total_organisations: @events.map(&:organisation).uniq.size,
+      total_talks: @events.joins(:talks).size,
       years_active: @events_by_year.keys.reject { |y| y == "Unknown" }.sort,
       first_sponsorship: @events.minimum(:start_date),
       latest_sponsorship: @events.maximum(:start_date),
@@ -45,7 +44,7 @@ class SponsorsController < ApplicationController
   end
 
   def classify_event_size(event)
-    talk_count = event.talks.count
+    talk_count = event.talks.size
 
     if talk_count == 0
       if event.start_date && event.start_date > Date.today
