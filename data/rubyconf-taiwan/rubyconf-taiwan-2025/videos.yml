@@ -302,6 +302,7 @@
   thumbnail_md: "https://pbs.twimg.com/media/Gx-LxVSbcAADFev?format=jpg"
   thumbnail_lg: "https://pbs.twimg.com/media/Gx-LxVSbcAADFev?format=jpg&name=large"
   thumbnail_xl: "https://pbs.twimg.com/media/Gx-LxVSbcAADFev?format=jpg&name=large"
+  slides_url: "https://speakerdeck.com/envek/nuances-on-kubernetes-rubyconf-taiwan-2025"
 
 - title: "Crafting AI-Friendly Application in Ruby"
   raw_title: "RubyConf Taiwan 2025 - Crafting AI-Friendly Application in Ruby by 蒼時弦也 / Aotoki Tsuruya"
