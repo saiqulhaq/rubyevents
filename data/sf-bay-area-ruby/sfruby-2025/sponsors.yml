@@ -23,6 +23,11 @@
           slug: gusto
           logo_url: https://sfruby.com/sponsor_gusto.png
 
+        - name: Temporal
+          website: https://temporal.io/
+          slug: temporal
+          logo_url: https://sfruby.com/sponsor_temporal.png
+
     - name: Emerald Sponsors
       description: Strong presence with quality branding and networking.
       level: 3
@@ -41,6 +46,11 @@
           website: https://www.cedarcode.com/
           slug: cedarcode
           logo_url: https://sfruby.com/sponsor_cedarcode.png
+
+        - name: Planet Argon
+          website: https://www.planetargon.com/
+          slug: planetargon
+          logo_url: https://sfruby.com/sponsor_planetargon.png
 
     - name: Organizer
       description: Organizer
