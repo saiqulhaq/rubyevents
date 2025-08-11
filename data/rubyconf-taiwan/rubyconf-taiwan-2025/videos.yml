@@ -316,3 +316,4 @@
     Building Ruby applications that integrate seamlessly with AI systems and machine learning workflows.
   video_provider: "scheduled"
   video_id: "aotoki-tsuruya-rubyconf-taiwan-2025"
+  slides_url: "https://talks.aotoki.me/2025-08-10-coscup"
