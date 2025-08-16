@@ -105,7 +105,7 @@
             <% end %>
           <% else %>
             <%= ui_tooltip "Add talk to your watch list" do %>
-              <%= ui_button url: sign_in_path(redirect_to: request.fullpath), data: {turbo_frame: "modal"}, kind: :pill do %>
+              <%= ui_button url: new_session_path(redirect_to: request.fullpath), data: {turbo_frame: "modal"}, kind: :pill do %>
                 <%= fa("bookmark", size: :xs, style: :regular) %>
                 <span class="text-xs">Bookmark</span>
               <% end %>
