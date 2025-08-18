@@ -2149,6 +2149,7 @@
   # https://pbs.twimg.com/media/Gs3qtgmbQAANYiv?format=jpg&name=medium
   video_provider: "scheduled"
   video_id: "sf-ruby-ai-hackathon-2025"
+  talks: []
   speakers: []
 
 - title: "SF Bay Area Ruby Meetup - July 2025"
