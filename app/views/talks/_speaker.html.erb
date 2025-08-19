@@ -20,12 +20,14 @@
       </div>
 
       <div class="text-xs text-gray-500 line-clamp-1">
-        <% if speaker.github_handle.present? %>
+        <% if defined?(content) %>
+          <%= content %>
+        <% elsif speaker.github_handle %>
           <%= "@#{speaker.github_handle}" %>
         <% elsif speaker.bsky.present? %>
           <%= "@#{speaker.bsky}" %>
         <% else %>
-          <%= pluralize(speaker.talks.count, "talk") %>
+          <%= "@#{speaker.slug}" %>
         <% end %>
       </div>
     </div>
