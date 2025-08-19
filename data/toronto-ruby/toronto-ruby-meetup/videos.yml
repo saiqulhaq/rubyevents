@@ -674,3 +674,59 @@
       published_at: "TODO"
       announced_at: "TODO"
       description: ""
+
+- title: "Toronto Ruby September 2025"
+  event_name: "Toronto Ruby September 2025"
+  date: "2025-09-23"
+  announced_at: "TODO"
+  published_at: "TODO"
+  video_provider: "children"
+  video_id: "toronto-ruby-september-2025"
+  description: |-
+    September 2025 Edition
+    September 23, 2025 @ 5:30 PM
+
+    Clio
+    16 York Street
+    30th Floor
+    Toronto, ON M5J 0E6
+
+    Take elevators up to 30th floor and check in.
+
+    Food and drinks provided by our sponsor.
+
+    Agenda
+    5:30 PM: Arrive, chat, and get pizza
+    6:00 PM: Presentations begin
+    Remainder of time: Networking and drinks
+
+    Speakers:
+    * Fabio Neves - "Write HTML Like It's the Year 3000"
+    * Tom Heina - Talk Title TBD
+
+    Sponsored by Clio
+
+    https://toronto-ruby.com/events/september-2025-edition
+    https://lu.ma/jy77b1m0
+  talks:
+    - title: "Write HTML Like It's the Year 3000"
+      event_name: "Toronto Ruby September 2025"
+      speakers:
+        - Fabio Neves
+      video_provider: "scheduled"
+      video_id: "fabio-neves-toronto-ruby-september-2025"
+      date: "2025-09-23"
+      published_at: "TODO"
+      announced_at: "TODO"
+      description: ""
+
+    - title: "Talk by Tom Heina"
+      event_name: "Toronto Ruby September 2025"
+      speakers:
+        - Tom Heina
+      video_provider: "scheduled"
+      video_id: "tom-heina-toronto-ruby-september-2025"
+      date: "2025-09-23"
+      published_at: "TODO"
+      announced_at: "TODO"
+      description: ""
