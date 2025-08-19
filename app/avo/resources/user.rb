@@ -14,9 +14,9 @@ class Avo::Resources::User < Avo::BaseResource
 
   def fields
     field :id, as: :id, link_to_record: true
-    field :email, as: :text, link_to_record: true, format_using: -> { value.truncate(30) }, only_on: :index
-    field :email, as: :text, link_to_record: true, hide_on: :index
     field :name, as: :text, link_to_record: true
+    field :email, as: :text, link_to_record: true, format_using: -> { value&.truncate(30) }, only_on: :index
+    field :email, as: :text, link_to_record: true, hide_on: :index
     field :github_handle, as: :text, link_to_record: true
     field :admin, as: :boolean
 
