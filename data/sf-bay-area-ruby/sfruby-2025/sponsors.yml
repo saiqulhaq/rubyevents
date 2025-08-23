@@ -28,6 +28,11 @@
           slug: temporal
           logo_url: https://sfruby.com/sponsor_temporal.png
 
+        - name: Avo
+          website: https://avohq.io/
+          slug: avo
+          logo_url: https://sfruby.com/sponsor_avo.png
+
     - name: Emerald Sponsors
       description: Strong presence with quality branding and networking.
       level: 3
@@ -51,6 +56,11 @@
           website: https://www.planetargon.com/
           slug: planetargon
           logo_url: https://sfruby.com/sponsor_planetargon.png
+
+        - name: Cactus
+          website: https://oncactus.com
+          slug: cactus
+          logo_url: https://sfruby.com/sponsor_cactus.png
 
     - name: Organizer
       description: Organizer
