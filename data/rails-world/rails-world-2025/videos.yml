@@ -137,6 +137,11 @@
   track: "Track 2"
   video_provider: "scheduled"
   video_id: "donal-mcbreen-rails-world-2025"
+  thumbnail_xs: "https://pbs.twimg.com/media/GzCNQrGWMAAxUbq?format=jpg"
+  thumbnail_sm: "https://pbs.twimg.com/media/GzCNQrGWMAAxUbq?format=jpg"
+  thumbnail_md: "https://pbs.twimg.com/media/GzCNQrGWMAAxUbq?format=jpg"
+  thumbnail_lg: "https://pbs.twimg.com/media/GzCNQrGWMAAxUbq?format=jpg&name=large"
+  thumbnail_xl: "https://pbs.twimg.com/media/GzCNQrGWMAAxUbq?format=jpg&name=large"
   date: "2025-09-04"
   published_at: "TODO"
   announced_at: "2025-05-20"
@@ -253,11 +258,17 @@
     - Hiroshi Shibata
     - Aaron Patterson
     - Jean Boussier
+    - Robby Russell
   description: |-
     Join maintainers of Ruby and Rails for an insightful conversation about the current state and future direction of both projects. This panel discussion will cover recent developments, upcoming features, and the collaborative efforts between the Ruby and Rails core teams.
   track: "Track 1"
   video_provider: "scheduled"
   video_id: "ruby-rails-maintainers-rails-world-2025"
+  thumbnail_xs: "https://pbs.twimg.com/media/GzRNx-mXwAA1i8C?format=jpg"
+  thumbnail_sm: "https://pbs.twimg.com/media/GzRNx-mXwAA1i8C?format=jpg"
+  thumbnail_md: "https://pbs.twimg.com/media/GzRNx-mXwAA1i8C?format=jpg"
+  thumbnail_lg: "https://pbs.twimg.com/media/GzRNx-mXwAA1i8C?format=jpg&name=large"
+  thumbnail_xl: "https://pbs.twimg.com/media/GzRNx-mXwAA1i8C?format=jpg&name=large"
   date: "2025-09-05"
   published_at: "TODO"
   announced_at: "2025-05-20"
@@ -454,6 +465,11 @@
   track: "Track 1"
   video_provider: "scheduled"
   video_id: "andrew-mcnamara-charlie-lee-rails-world-2025"
+  thumbnail_xs: "https://pbs.twimg.com/media/GzL2PE1W0AAZ_Qh?format=jpg"
+  thumbnail_sm: "https://pbs.twimg.com/media/GzL2PE1W0AAZ_Qh?format=jpg"
+  thumbnail_md: "https://pbs.twimg.com/media/GzL2PE1W0AAZ_Qh?format=jpg"
+  thumbnail_lg: "https://pbs.twimg.com/media/GzL2PE1W0AAZ_Qh?format=jpg&name=large"
+  thumbnail_xl: "https://pbs.twimg.com/media/GzL2PE1W0AAZ_Qh?format=jpg&name=large"
   date: "2025-09-05"
   published_at: "TODO"
   announced_at: "2025-05-20"
