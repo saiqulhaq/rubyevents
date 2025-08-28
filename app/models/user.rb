@@ -75,7 +75,7 @@ class User < ApplicationRecord
 
   has_object :profiles
 
-  validates :email, format: {with: URI::MailTo::EMAIL_REGEXP}, allow_nil: true
+  validates :email, format: {with: URI::MailTo::EMAIL_REGEXP}, allow_blank: true
   validates :github_handle, presence: true, uniqueness: true, allow_blank: true
   validates :canonical, exclusion: {in: ->(user) { [user] }, message: "can't be itself"}
 
