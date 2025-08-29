@@ -182,16 +182,15 @@
   video_provider: "scheduled"
   video_id: "chris-hasinski-friendly-rb-2025"
 
-- title: "OWASP Top 10 For Rails developers"
-  raw_title: "Friendly.rb 2025 - OWASP Top 10 For Rails developers by Greg Molnar"
+- title: "Security in the age of AI"
+  raw_title: "Friendly.rb 2025 - Security in the age of AI by Greg Molnar"
   speakers:
     - Greg Molnar
   event_name: "Friendly.rb 2025"
   date: "2025-09-11"
   published_at: "TODO"
   language: "en"
-  description: |-
-    Security best practices for Rails developers based on OWASP Top 10 from Greg Molnar, Independent Consultant and OSCP Certified Penetration tester.
+  description: ""
   video_provider: "scheduled"
   video_id: "greg-molnar-friendly-rb-2025"
 
