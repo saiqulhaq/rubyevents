@@ -60,6 +60,7 @@ class User < ApplicationRecord
   # Authentication and user-specific associations
   has_many :sessions, dependent: :destroy, inverse_of: :user
   has_many :connected_accounts, dependent: :destroy
+  has_many :passports, -> { passport }, class_name: "ConnectedAccount"
   has_many :watch_lists, dependent: :destroy
   has_many :watched_talks, dependent: :destroy
 
@@ -145,10 +146,6 @@ class User < ApplicationRecord
   # User-specific methods
   def default_watch_list
     @default_watch_list ||= watch_lists.first || watch_lists.create(name: "Favorites")
-  end
-
-  def passport_account
-    connected_accounts.find_by(provider: "passport")
   end
 
   # Speaker-specific methods (adapted from Speaker model)
