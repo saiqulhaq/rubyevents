@@ -10,7 +10,14 @@
           <span class="text-sm content-center text-[#737373]">(<%= user.pronouns %>)</span>
         <% end %>
         <% if user.verified? %>
-          <%= fa("badge-check", class: "fill-blue-500", size: :sm) %>
+          <%= ui_tooltip "#{user.name} is a verified speaker" do %>
+            <%= fa("badge-check", class: "fill-blue-500", size: :sm) %>
+          <% end %>
+        <% end %>
+        <% if user.passports.any? %>
+          <%= ui_tooltip "#{user.name} claimed his Ruby Passport" do %>
+            <%= fa("passport", class: "fill-orange-800", size: :md) %>
+          <% end %>
         <% end %>
       </h1>
     </div>

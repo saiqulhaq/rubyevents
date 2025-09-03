@@ -54,7 +54,7 @@ class ProfilesController < ApplicationController
   end
 
   def set_user
-    @user = User.includes(:talks).find_by(slug: params[:slug])
+    @user = User.includes(:talks, :passports).find_by(slug: params[:slug])
 
     # When the user is found from its slug, but the github handle is different, we need to redirect to the github handle
     if @user.present? && @user.github_handle.present? && @user.github_handle != params[:slug]
