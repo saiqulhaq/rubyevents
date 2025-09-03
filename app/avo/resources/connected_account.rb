@@ -27,4 +27,8 @@ class Avo::Resources::ConnectedAccount < Avo::BaseResource
     field :created_at, as: :date_time, hide_on: [:index]
     field :updated_at, as: :date_time, hide_on: [:index]
   end
+
+  def filters
+    filter Avo::Filters::Provider
+  end
 end
