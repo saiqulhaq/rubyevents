@@ -40,7 +40,7 @@
     <% end %>
   <% else %>
     <%= ui_tooltip "Add this event to your list of participations" do %>
-      <%= ui_button url: new_session_path(redirect_to: request.fullpath), kind: :pill, class: "w-full", data: {turbo_frame: "modal"} do %>
+      <%= ui_button url: new_session_path(redirect_to: request.fullpath), outline: true, size: :sm, kind: :neutral, class: "w-full", data: {turbo_frame: "modal"} do %>
         <%= fa("plus", style: :solid) %>
         <span class="text-nowrap">Add to My Events</span>
       <% end %>
