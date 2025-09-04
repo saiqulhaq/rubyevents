@@ -28,6 +28,10 @@ class Sessions::OmniauthController < ApplicationController
       @user = connected_account.user
     end
 
+    if @user.previously_new_record?
+      @user.profiles.enhance_with_github_later
+    end
+
     # If the user connected through a passport connection URL, we need to create a connected account for it
     if connect_id.present?
       @user.connected_accounts.find_or_create_by!(provider: "passport", uid: connect_id)

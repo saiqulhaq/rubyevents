@@ -34,13 +34,20 @@ class Sessions::OmniauthControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "creates a new user if not exists (github)" do
-    OmniAuth.config.add_mock(:github, uid: "12345", info: {email: "twitter@example.com", nickname: "twitter"}, credentials: {token: 1, expires_in: 100})
+    OmniAuth.config.add_mock(:github, uid: "12345", info: {email: "twitter@example.com", nickname: "rosa"}, credentials: {token: 1, expires_in: 100})
     assert_difference "User.count", 1 do
       post "/auth/github/callback"
     end
 
-    assert_equal "twitter", User.last.connected_accounts.last.username
-    assert_equal "twitter", User.last.github_handle
+    assert_equal "rosa", User.last.connected_accounts.last.username
+    assert_equal "rosa", User.last.github_handle
+
+    VCR.use_cassette("sessions/omniauth_controller_test/creates_a_new_user_if_not_exists_github") do
+      perform_enqueued_jobs
+    end
+
+    user = User.last
+    assert_equal "https://rosa.codes", user.website
   end
 
   test "finds existing user if already exists (developer)" do
