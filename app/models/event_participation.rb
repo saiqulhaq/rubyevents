@@ -32,4 +32,8 @@ class EventParticipation < ApplicationRecord
 
   # enums
   enum :attended_as, %w[keynote_speaker speaker visitor].index_by(&:itself), prefix: true
+
+  def name
+    "#{user.name} - #{event.name} - #{attended_as}"
+  end
 end
