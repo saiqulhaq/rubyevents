@@ -139,7 +139,7 @@ gem "rails_autolink", "~> 1.1"
 
 gem "sitemap_generator", "~> 6.3"
 
-gem "view_component", "~> 3.7"
+gem "view_component"
 
 gem "dry-initializer-rails"
 
