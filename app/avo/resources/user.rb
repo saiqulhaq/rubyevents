@@ -3,9 +3,9 @@ class Avo::Resources::User < Avo::BaseResource
   self.includes = []
   self.find_record_method = -> {
     if id.is_a?(Array)
-      query.where(slug: id)
+      (id.first.to_i == 0) ? query.where(slug: id) : query.where(id: id)
     else
-      query.find_by(slug: id)
+      (id.to_i == 0) ? query.find_by_slug(id) : query.find(id)
     end
   }
   self.search = {

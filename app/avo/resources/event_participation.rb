@@ -10,11 +10,9 @@ class Avo::Resources::EventParticipation < Avo::BaseResource
 
   def fields
     field :id, as: :id
-    field :user_id, as: :number
-    field :event_id, as: :number
     field :attended_as, as: :select, enum: ::EventParticipation.attended_as
-    field :user, as: :belongs_to
-    field :event, as: :belongs_to
+    field :user, as: :belongs_to, searchable: true
+    field :event, as: :belongs_to, searchable: true, attach_scope: -> { query.order(name: :asc) }
   end
 
   def filters
