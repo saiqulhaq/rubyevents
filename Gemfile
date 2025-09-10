@@ -80,6 +80,7 @@ gem "yt"
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
+  gem "bundler-audit", require: false
   gem "debug", platforms: %i[mri windows]
   gem "byebug", "~> 11.1"
   gem "minitest-difftastic", "~> 0.2"
