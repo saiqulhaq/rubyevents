@@ -116,5 +116,7 @@ class Sessions::OmniauthController < ApplicationController
     emails = response.parsed_body
     primary_email = emails.find { |email| email.primary && email.verified }
     primary_email&.email
+  rescue => e
+    Rails.error.report(e)
   end
 end
