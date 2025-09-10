@@ -14,7 +14,7 @@ class Profiles::ConnectController < ApplicationController
       # The user landed on their own connect page
       redirect_to profile_path(Current.user), notice: "You did it. You landed on your profile page 🙌"
     elsif passport_already_claimed?
-      redirect_to root_path, notice: "This passport has been already claimed"
+      redirect_to profile_path(@found_user)
     end
   end
 

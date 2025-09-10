@@ -37,10 +37,10 @@ class Profiles::ConnectControllerTest < ActionDispatch::IntegrationTest
   #   # enable this when we have a way to connect to other users
   #   # assert_select ".pt-4 a.btn.btn-primary.btn-disabled.hidden", text: "Connect"
   # end
-  test "a claimed profile cannot be claimed by an anonymous user" do
+
+  test "guest visiting a claimed profile should be redirected to the claimed profile page" do
     get profiles_connect_path(id: @user.passports.first.uid)
-    assert_redirected_to root_path
-    assert_equal "This passport has been already claimed", flash[:notice]
+    assert_redirected_to profile_path(@user)
   end
 
   # test "user should see no profile found page" do
