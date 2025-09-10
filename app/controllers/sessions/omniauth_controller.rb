@@ -117,6 +117,8 @@ class Sessions::OmniauthController < ApplicationController
     primary_email = emails.find { |email| email.primary && email.verified }
     primary_email&.email
   rescue => e
+    # had the case of a user where this method would fail this will need to be investigated in details
     Rails.error.report(e)
+    nil
   end
 end
