@@ -38,6 +38,7 @@ class ProfilesController < ApplicationController
 
   # GET /profiles/:slug/edit
   def edit
+    set_modal_options(size: :lg)
   end
 
   # PATCH/PUT /profiles/:slug
