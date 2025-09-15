@@ -5,17 +5,13 @@
   speakers:
     - David Heinemeier Hansson
   description: |-
-    DHH will kick off the third edition of Rails World in Amsterdam with an Opening Keynote highlighting what is new in Rails today, and where the framework is headed tomorrow.
+    At the Rails World 2025 Opening Keynote in Amsterdam, Ruby on Rails creator David Heinemeier Hansson announced Rails 8.1 beta, Active Job Continuations, Markdown Rendering, Local CI, Action Text Lexxy, Beamer, Active Record Tenating, Kamal Geo Proxy, booted up a new Framework laptop to install the Omarchy OS and launch a Rails app (all in 6 minutes), before closing with a call to fully own every part of your development workflow, end to end.
   track: "Track 1"
-  video_provider: "scheduled"
-  video_id: "dhh-rails-world-2025"
-  thumbnail_xs: "https://pbs.twimg.com/media/GroOXFKXsAAgCuv?format=jpg"
-  thumbnail_sm: "https://pbs.twimg.com/media/GroOXFKXsAAgCuv?format=jpg"
-  thumbnail_md: "https://pbs.twimg.com/media/GroOXFKXsAAgCuv?format=jpg"
-  thumbnail_lg: "https://pbs.twimg.com/media/GroOXFKXsAAgCuv?format=jpg&name=large"
-  thumbnail_xl: "https://pbs.twimg.com/media/GroOXFKXsAAgCuv?format=jpg&name=large"
+  video_provider: "youtube"
+  video_id: "gcwzWzC7gUA"
+  id: "dhh-rails-world-2025"
   date: "2025-09-04"
-  published_at: "TODO"
+  published_at: "2025-09-04"
   announced_at: "2025-05-20"
   event_name: "Rails World 2025"
   language: "english"
@@ -511,17 +507,13 @@
   speakers:
     - Aaron Patterson
   description: |-
-    We actually never know with Aaron. We'll find out what this session is about when you do.
+    In the #RailsWorld Closing Keynote, Aaron Patterson (Ruby core team member since 2009, Rails core since 2011, and Senior Staff Engineer at Shopify) talks about the work that Shopify’s Ruby & Rails Infrastructure team is tackling in Ruby core, including Ractors for better parallelism and a new method-based JIT compiler, ZJIT, and shares some pro tips for Rails developers on writing JIT-friendly code.
   track: "Track 1"
-  video_provider: "scheduled"
-  video_id: "aaron-patterson-rails-world-2025"
-  thumbnail_xs: "https://pbs.twimg.com/media/GwKEaHfWcAACkT2?format=jpg"
-  thumbnail_sm: "https://pbs.twimg.com/media/GwKEaHfWcAACkT2?format=jpg"
-  thumbnail_md: "https://pbs.twimg.com/media/GwKEaHfWcAACkT2?format=jpg"
-  thumbnail_lg: "https://pbs.twimg.com/media/GwKEaHfWcAACkT2?format=jpg&name=large"
-  thumbnail_xl: "https://pbs.twimg.com/media/GwKEaHfWcAACkT2?format=jpg&name=large"
+  video_provider: "youtube"
+  video_id: "tiuW0JvPa7k"
+  id: "aaron-patterson-rails-world-2025"
   date: "2025-09-05"
-  published_at: "TODO"
+  published_at: "2025-09-13"
   announced_at: "2025-05-20"
   event_name: "Rails World 2025"
   language: "english"
