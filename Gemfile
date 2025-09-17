@@ -13,7 +13,7 @@ gem "propshaft"
 gem "sqlite3", ">= 2.1.0"
 
 # Use the Puma web server [https://github.com/puma/puma]
-gem "puma"
+gem "puma", "7.0.1"
 
 # use jbuilder for the api
 gem "jbuilder"
