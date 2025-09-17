@@ -2,15 +2,15 @@
   <% if watch_list.talks.present? %>
     <div id="talks" class="grid min-w-full grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gallery">
       <%= render partial: "talks/card",
-          collection: watch_list.talks,
-          as: :talk,
-          locals: {
-            favoritable: true,
-            user_favorite_talks_ids: watch_list.talks.ids,
-            user_watched_talks: user_watched_talks,
-            back_to: watch_lists_path,
-            back_to_title: watch_list.name
-          } %>
+            collection: watch_list.talks,
+            as: :talk,
+            locals: {
+              favoritable: true,
+              user_favorite_talks_ids: watch_list.talks.ids,
+              user_watched_talks: user_watched_talks,
+              back_to: watch_lists_path,
+              back_to_title: watch_list.name
+            } %>
     </div>
   <% else %>
     <div class="py-8 text-center">
