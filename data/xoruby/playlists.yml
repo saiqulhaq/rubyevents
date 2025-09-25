@@ -77,9 +77,6 @@
   banner_background: "#230902"
   featured_background: "#230902"
   featured_color: "#FE470B"
-  cfp_open_date: "2025-09-09"
-  cfp_close_date: "2025-10-11"
-  cfp_link: https://www.xoruby.com/speak/
 
 - id: xoruby-san-diego-2025
   title: XO Ruby San Diego 2025
@@ -96,9 +93,6 @@
   banner_background: "#230902"
   featured_background: "#230902"
   featured_color: "#FE470B"
-  cfp_open_date: "2025-09-09"
-  cfp_close_date: "2025-10-11"
-  cfp_link: https://www.xoruby.com/speak/
 
 - id: xoruby-austin-2025
   title: XO Ruby Austin 2025
@@ -115,6 +109,3 @@
   banner_background: "#230902"
   featured_background: "#230902"
   featured_color: "#FE470B"
-  cfp_open_date: "2025-09-09"
-  cfp_close_date: "2025-10-11"
-  cfp_link: https://www.xoruby.com/speak/
