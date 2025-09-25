@@ -57,7 +57,7 @@
 
 - title: "そのpreloadは必要？──見過ごされたpreloadが技術的負債として爆発した日"
   speakers:
-    - mugi
+    - Shuta Mugikura
   event_name: "Kaigi on Rails 2025"
   date: "2025-09-26"
   track: "Hall Red"
@@ -152,7 +152,7 @@
 
 - title: "5年間のFintech × Rails実践に学ぶ - 基本に忠実な運用で築く高信頼性システム"
   speakers:
-    - ohbarye
+    - Masato Ohba
   event_name: "Kaigi on Rails 2025"
   date: "2025-09-26"
   track: "Hall Red"
@@ -361,7 +361,7 @@
 
 - title: "履歴 on Rails : Bitemporal Data Modelで実現する履歴管理"
   speakers:
-    - hypermkt
+    - Makoto Chiba
   event_name: "Kaigi on Rails 2025"
   date: "2025-09-27"
   track: "Hall Blue"
@@ -396,7 +396,7 @@
 
 - title: "階層構造を表現するデータ構造とリファクタリング"
   speakers:
-    - yuhi
+    - Yuhi Sato
   event_name: "Kaigi on Rails 2025"
   date: "2025-09-27"
   track: "Hall Blue"
@@ -550,7 +550,7 @@
 
 - title: "ドメイン指定Cookieとサービス間共有Redisで作る認証基盤サービス"
   speakers:
-    - kokuyouwind # 黒曜
+    - Shunsuke "Kokuyou" Mori # 黒曜
   event_name: "Kaigi on Rails 2025"
   date: "2025-09-27"
   track: "Hall Blue"
@@ -584,7 +584,7 @@
 
 - title: '複雑なデータ処理 × 静的サイト" を両立させる、楽をするRails運用'
   speakers:
-    - hogelog
+    - Sunao Hogelog Komuro
   event_name: "Kaigi on Rails 2025"
   date: "2025-09-27"
   track: "Hall Blue"

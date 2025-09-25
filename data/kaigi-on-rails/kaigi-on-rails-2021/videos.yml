@@ -503,7 +503,7 @@
 - title: "Safe Retry with Idempotency-Key Header"
   raw_title: "Safe Retry with Idempotency-Key Header / ohbarye"
   speakers:
-    - ohbarye
+    - Masato Ohba
   event_name: "Kaigi on Rails 2021"
   published_at: "2021-10-24"
   date: "2021-10-23"
