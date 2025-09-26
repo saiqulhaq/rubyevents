@@ -189,11 +189,10 @@
 - id: wroclove-rb-2026
   title: wroclove.rb 2026
   location: Wrocław, Poland
-  description: ''
-  published_at: ''
-  start_date: '2026-04-30'
-  end_date: '2026-04-30'
-  date_precision: "month"
+  description: ""
+  published_at: ""
+  start_date: "2026-04-17"
+  end_date: "2026-04-19"
   channel_id: UC_tX5G6twhuwWZQptcc3DOA
   year: '2026'
   slug: wroclove-rb-2026
