@@ -1,6 +1,6 @@
 namespace :speakerdeck do
   desc "Set speakerdeck name from slides_url"
-  task set_usernames_from_slides_url: :environment do |t, args|
+  task set_usernames_from_slides_url: :environment do
     users = User.distinct.where(speakerdeck: "").where.associated(:talks)
     updated = 0
     processed = 0
