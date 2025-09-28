@@ -318,4 +318,14 @@ class User < ApplicationRecord
     self.slug = slug.presence || github_handle.presence&.downcase
     super
   end
+
+  def speakerdeck_user_from_slides_url
+    handles = talks
+      .map(&:static_metadata).compact
+      .map(&:slides_url).compact
+      .select { |url| url.include?("speakerdeck.com") }
+      .map { |url| url.split("/")[3] }.uniq
+
+    handles.count == 1 ? handles.first : nil
+  end
 end
