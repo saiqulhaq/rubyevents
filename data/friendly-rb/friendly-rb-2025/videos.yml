@@ -168,6 +168,7 @@
     A humorous yet informative look at Rails and SQLite integration pitfalls from André Arko, Rubygems core team member.
   video_provider: "scheduled"
   video_id: "andre-arko-friendly-rb-2025"
+  slides_url: "https://speakerdeck.com/indirect/rails-on-sqlite-exciting-new-ways-to-cause-outages"
 
 - title: "Let's fine-tune a model!"
   raw_title: "Friendly.rb 2025 - Let's fine-tune a model! by Chris Hasiński"
