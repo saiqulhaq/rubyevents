@@ -326,6 +326,6 @@ class User < ApplicationRecord
       .select { |url| url.include?("speakerdeck.com") }
       .map { |url| url.split("/")[3] }.uniq
 
-    handles.count == 1 ? handles.first : nil
+    (handles.count == 1) ? handles.first : nil
   end
 end

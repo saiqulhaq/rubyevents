@@ -417,3 +417,6 @@ topics = [
 
 # create topics
 Topic.create_from_list(topics, status: :approved)
+
+Rake::Task["backfill:speaker_participation"].invoke
+Rake::Task["speakerdeck:set_usernames_from_slides_url"].invoke
