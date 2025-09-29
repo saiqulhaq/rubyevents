@@ -117,7 +117,7 @@
 - id: rubykaigi-2014
   title: RubyKaigi 2014
   location: "Tokyo, Japan"
-  description: ""
+  description: "Tower Hall Funabori"
   start_date: "2014-09-18"
   end_date: "2014-09-20"
   channel_id: ""
@@ -126,6 +126,9 @@
   metadata_parser: YouTube::VideoMetadataRubyKaigi
   slug: rubykaigi-2014
   website: https://rubykaigi.org/2014
+  banner_background: "#EDDCC2"
+  featured_background: "#EDDCC2"
+  featured_color: "#5A4A40o"
 
 - id: PLbFmgWm555yalhrTtBXJdPBq6bQWIiza1
   title: RubyKaigi 2015
