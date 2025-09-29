@@ -91,9 +91,9 @@
   metadata_parser: YouTube::VideoMetadataRubyKaigi
   slug: rubykaigi-2011
   website: https://rubykaigi.org/2011
-  banner_background: "#FFFFFF"
-  featured_background: "#FFFFFF"
-  featured_color: "#000000"
+  banner_background: "#E6E5E0"
+  featured_background: "#E6E5E0"
+  featured_color: "#050000"
 
 # No RubyKaigi in 2012: https://rubykaigi.org/2012
 
