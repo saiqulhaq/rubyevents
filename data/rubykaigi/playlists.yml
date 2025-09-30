@@ -43,9 +43,9 @@
   metadata_parser: YouTube::VideoMetadataRubyKaigi
   slug: rubykaigi-2008
   website: https://rubykaigi.org/2008
-  banner_background: "#FFFFFF"
-  featured_background: "#FFFFFF"
-  featured_color: "#000000"
+  banner_background: "#FF2000"
+  featured_background: "#FF2000"
+  featured_color: "#FFFFFF"
 
 - id: rubykaigi-2009
   title: RubyKaigi 2009
