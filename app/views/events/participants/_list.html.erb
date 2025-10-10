@@ -1,5 +1,5 @@
 <div id="participants_list">
-  <% if participants.any? && Current.user && !participation&.attended_as_visitor? %>
+  <% if participants.any? && Current.user && participation.blank? %>
     <div class="mb-6 border-2 border-dashed border-purple-300 rounded-lg bg-purple-50 p-4">
       <div class="flex items-center gap-4">
         <div class="text-3xl">👋</div>
