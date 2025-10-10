@@ -9,6 +9,10 @@
         <% if user.verified? %>
           <%= fa("badge-check", class: "fill-blue-500", size: :xs) %>
         <% end %>
+
+        <% if user.passports.any? %>
+          <%= fa("passport", class: "fill-orange-800", size: :xs) %>
+        <% end %>
       </div>
 
       <div class="text-xs text-gray-500 line-clamp-1">
