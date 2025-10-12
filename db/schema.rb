@@ -102,6 +102,20 @@ ActiveRecord::Schema[8.1].define(version: 2025_10_12_114916) do
     t.index ["user_id"], name: "index_email_verification_tokens_on_user_id"
   end
 
+  create_table "event_involvements", force: :cascade do |t|
+    t.datetime "created_at", null: false
+    t.integer "event_id", null: false
+    t.integer "involvementable_id", null: false
+    t.string "involvementable_type", null: false
+    t.integer "position", default: 0
+    t.string "role", null: false
+    t.datetime "updated_at", null: false
+    t.index ["event_id"], name: "index_event_involvements_on_event_id"
+    t.index ["involvementable_type", "involvementable_id", "event_id", "role"], name: "idx_involvements_on_involvementable_and_event_and_role", unique: true
+    t.index ["involvementable_type", "involvementable_id"], name: "index_event_involvements_on_involvementable"
+    t.index ["role"], name: "index_event_involvements_on_role"
+  end
+
   create_table "event_participations", force: :cascade do |t|
     t.string "attended_as", null: false
     t.datetime "created_at", null: false
@@ -430,6 +444,7 @@ ActiveRecord::Schema[8.1].define(version: 2025_10_12_114916) do
   add_foreign_key "connected_accounts", "users"
   add_foreign_key "contributors", "users"
   add_foreign_key "email_verification_tokens", "users"
+  add_foreign_key "event_involvements", "events"
   add_foreign_key "event_participations", "events"
   add_foreign_key "event_participations", "users"
   add_foreign_key "event_sponsors", "events"
