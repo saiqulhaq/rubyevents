@@ -173,9 +173,10 @@ gem "omniauth-github"
 # Provides a mitigation against CVE-2015-9284 [https://github.com/cookpad/omniauth-rails_csrf_protection]
 gem "omniauth-rails_csrf_protection"
 
-# silence Ruby 3.4 warnings
-gem "ostruct"
-
 gem "hotwire_combobox", "~> 0.4.0"
 
 gem "rails-i18n", "~> 8.0"
+
+# Ruby standards gems
+gem "openssl" # https://github.com/ruby/openssl/issues/949
+gem "ostruct"

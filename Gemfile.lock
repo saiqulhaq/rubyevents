@@ -444,6 +444,7 @@ GEM
     omniauth-rails_csrf_protection (1.0.2)
       actionpack (>= 4.2)
       omniauth (~> 2.0)
+    openssl (3.3.1)
     ostruct (0.6.3)
     pagy (9.4.0)
     parallel (1.27.0)
@@ -729,6 +730,7 @@ DEPENDENCIES
   omniauth
   omniauth-github
   omniauth-rails_csrf_protection
+  openssl
   ostruct
   pagy
   propshaft
