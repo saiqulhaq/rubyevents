@@ -278,7 +278,7 @@
           <p>
             <b><%= talk.title %></b><br>
             <%= talk.speakers.map(&:name).to_sentence %>
-            <% if talk.event.static_metadata.location %> • <%= talk.event.static_metadata.location %><% end %>
+            <% if talk.location %> • <%= talk.location %><% end %>
             <% if language && language != "English" %> • <%= language %> <% end %> •
             <%= talk.formatted_kind %>
           </p>

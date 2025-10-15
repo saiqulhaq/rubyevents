@@ -414,6 +414,10 @@ class Talk < ApplicationRecord
     Language.by_code(language)
   end
 
+  def location
+    static_metadata.location || event.static_metadata.location
+  end
+
   def slug_candidates
     @slug_candidates ||= [
       static_metadata.slug&.parameterize,
