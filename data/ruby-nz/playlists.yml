@@ -1,6 +1,6 @@
 ---
 - id: ruby-retreat-nz-2020
-  title: Ruby Retreat NZ 2020 (Cancelled)
+  title: "Ruby Retreat NZ 2020 (Cancelled)"
   description: ''
   location: Mt Cheeseman, near Christchurch, New Zealand
   kind: event
@@ -11,6 +11,9 @@
   website: https://retreat.ruby.nz
   status: Cancelled
   twitter: RubyNewZealand
+  banner_background: "#FFFFFF"
+  featured_background: "#FFFFFF"
+  featured_color: "#000000"
 
 - id: ruby-retreat-nz-2023
   title: Ruby Retreat NZ 2023
@@ -22,6 +25,9 @@
   metadata_parser: YouTube::VideoMetadata
   slug: ruby-retreat-nz-2023
   website: https://retreat.ruby.nz
+  banner_background: "#FFFFFF"
+  featured_background: "#FFFFFF"
+  featured_color: "#000000"
 
 - id: ruby-retreat-nz-2025
   title: Ruby Retreat NZ 2025
@@ -33,3 +39,6 @@
   metadata_parser: YouTube::VideoMetadata
   slug: ruby-retreat-nz-2025
   website: https://retreat.ruby.nz
+  banner_background: "#FFFFFF"
+  featured_background: "#FFFFFF"
+  featured_color: "#000000"
