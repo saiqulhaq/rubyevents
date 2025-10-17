@@ -415,7 +415,7 @@ class Talk < ApplicationRecord
   end
 
   def location
-    static_metadata.location || event.static_metadata.location
+    static_metadata.try(:location) || event.static_metadata.location
   end
 
   def slug_candidates
