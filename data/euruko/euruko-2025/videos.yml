@@ -19,7 +19,7 @@
   raw_title: 'Opening Keynote by Yukihiro "Matz" Matsumoto'
   event_name: "EuRuKo 2025"
   date: "2025-09-18"
-  published_at: "TODO"
+  published_at: "2025-10-12"
   announced_at: "2025-05-24"
   speakers:
     - Yukihiro "Matz" Matsumoto
@@ -32,7 +32,7 @@
   raw_title: "Introducing ReActionView: A new ActionView-Compatible ERB Engine by Marco Roth"
   event_name: "EuRuKo 2025"
   date: "2025-09-18"
-  published_at: "TODO"
+  published_at: "2025-10-13"
   announced_at: "2025-05-24"
   speakers:
     - Marco Roth
@@ -48,7 +48,7 @@
   raw_title: "Postgres Partitioning Best Practices by Karen Jex"
   event_name: "EuRuKo 2025"
   date: "2025-09-18"
-  published_at: "TODO"
+  published_at: "2025-10-13"
   announced_at: "2025-05-24"
   speakers:
     - Karen Jex
@@ -76,7 +76,7 @@
   raw_title: "The hidden value of niche open-source projects by Rémy Hannequin"
   event_name: "EuRuKo 2025"
   date: "2025-09-18"
-  published_at: "TODO"
+  published_at: "2025-10-14"
   announced_at: "2025-05-24"
   speakers:
     - Rémy Hannequin
