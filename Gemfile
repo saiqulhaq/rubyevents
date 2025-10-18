@@ -120,7 +120,6 @@ group :test do
 end
 
 gem "pagy"
-gem "dockerfile-rails", ">= 1.2", group: :development
 
 # gem "activerecord-enhancedsqlite3-adapter"
 gem "solid_cache"
