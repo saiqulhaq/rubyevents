@@ -129,7 +129,7 @@ gem "mission_control-jobs"
 
 gem "ahoy_matey"
 gem "vite_rails"
-gem "meta-tags", "~> 2.18"
+gem "meta-tags"
 gem "groupdate"
 gem "appsignal"
 gem "chartkick", "~> 5.0"
