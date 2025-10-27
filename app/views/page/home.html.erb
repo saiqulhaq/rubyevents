@@ -14,9 +14,14 @@
         background: var(--featured-background);
       }
 
-      body.home-page .navbar a,
-      body.home-page .navbar .desktop-menu a {
+      body.home-page .navbar .desktop-menu a,
+      body.home-page .navbar > .container a:not(.dropdown-content a) {
         color: var(--featured-color);
+      }
+
+      body.home-page .navbar .dropdown-content a,
+      body.home-page .navbar .dropdown-content button {
+        color: #000 !important;
       }
 
       body.home-page .navbar .btn-primary {
