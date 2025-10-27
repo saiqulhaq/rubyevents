@@ -91,7 +91,7 @@ class User < ApplicationRecord
   belongs_to :canonical, class_name: "User", optional: true
   has_one :contributor, dependent: :nullify
 
-  has_object :profiles, :talk_recommender, :watched_talk_seeder
+  has_object :profiles, :talk_recommender, :watched_talk_seeder, :speakerdeck_feed
 
   validates :email, format: {with: URI::MailTo::EMAIL_REGEXP}, allow_blank: true
   validates :github_handle, presence: true, uniqueness: true, allow_blank: true
