@@ -353,7 +353,9 @@ class User < ApplicationRecord
   end
 
   def to_param
-    github_handle || slug
+    return github_handle if github_handle.present?
+
+    slug
   end
 
   private
